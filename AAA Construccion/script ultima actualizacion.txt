@@ -1,0 +1,23 @@
+<script language="JavaScript" type="text/javascript"> 
+<!-- 
+    // last modified script by Bernhard Friedrich; should work in all browsers 
+    var a; 
+    a=new Date(document.lastModified); 
+    lm_year=a.getYear(); 
+    if (lm_year<1000){                  //just in case date is delivered with 4 digits 
+        if (lm_year<70){ 
+        lm_year=2000+lm_year; 
+        } 
+        else lm_year=1900+lm_year; 
+    }                                 //end workaround 
+    lm_month=a.getMonth()+1; 
+    if (lm_month<10){ 
+        lm_month='0'+lm_month; 
+    } 
+    lm_day=a.getDate(); 
+    if (lm_day<10){ 
+        lm_day='0'+lm_day; 
+    } 
+    document.write("Datos actualizados al " + lm_day+'/'+lm_month+'/'+lm_year); 
+// --> 
+</script>
