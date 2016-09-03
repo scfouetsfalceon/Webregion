@@ -1,0 +1,36 @@
+/*Hoja de estilo para el proyecto Azimut*/
+
+h1,h2 {
+  color: #622599;
+}
+
+li > a {
+  color: #909090;
+}
+
+.boxshadow {
+    -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0,0.4);
+    -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, .4);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, .4);    
+}
+
+.frame1 {
+  background: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.ir-arriba {
+  border-radius: 5px;
+  display:none;
+  padding:7px;
+  background:#622599;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<!-- Material Design Lite - Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License
+
+  ****
+
+  Material Design Lite - Derechos de autor 2015 Google Inc. Todos los derechos reservados .
+
+  Bajo la licencia Apache, versión 2.0 ( la "Licencia" ); no se puede utilizar este archivo salvo en cumplimiento de la Licencia. Usted puede obtener una copia de la Licencia en https://www.apache.org/licenses/LICENSE-2.0
+
+  A menos que lo requiera la ley aplicable o se acuerde por escrito, el software distribuido bajo la Licencia se distribuye "TAL CUAL",  SIN GARANTÍAS O CONDICIONES DE CUALQUIER TIPO, ya sea expresa o implícita. Consulte la licencia para los permisos de idioma específico que rige y limitaciones en la licencia -->
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Proyecto Azimut... la finalidad última de esta iniciativa es brindar al Encargado de la Unidad, herramientas que faciliten la planificación de sus reuniones, salidas y otras actividades de calidad, que satisfagan las necesidades y aspiraciones de los niños, niñas y jóvenes Scouts.">
+    <meta name="author" content="Enrique Valerio / ASV Falcón">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyecto Azimut</title>
+
+    <!-- Añadir a pantalla de inicio para Chrome en Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Añadir a la pantalla principal para Safari en iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon para Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;    
+    }
+    .cont {
+      max-width: 1600;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    </style>
+  </head>
+  <body class="cont" style="max-width: 1600;
+      margin-right: auto;
+      margin-left: auto;">
+    <div class="layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+      <header class="header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title"><img src="image/logo02.png" alt="Logo Proyecto Azimut" height="40px" width="auto"></span>
+          <!-- <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search">
+              <label class="mdl-textfield__label" for="search">Buscar ...</label>
+            </div>
+          </div>
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+            <li class="mdl-menu__item">Acerca de</li>
+            <li class="mdl-menu__item">Soporte</li>
+            <li class="mdl-menu__item">Información legal</li>
+          </ul> -->
+        </div>
+      </header>
+
+      <div class="drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+
+        
+        <header class="drawer-header">
+          <!-- Aquí debe ir la información del usuario, así como el menú para su perfil y opciones
+          Fotografía del usuario
+          <img src="images/user.jpg" class="avatar">
+          Nombre del usuario
+          <div class="avatar-dropdown">
+            <span>Jaro Marval</span>
+            <div class="mdl-layout-spacer"></div>
+            Menú del usuario
+            <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+              <i class="material-icons" role="presentation">arrow_drop_down</i>
+              <span class="visuallyhidden">Menú del usuario</span>
+            </button>
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+              <li class="mdl-menu__item">Editar perfil</li>
+              <li class="mdl-menu__item">Salir</li>
+              <li class="mdl-menu__item"><i class="material-icons">add</i>Entrar con otra cuenta...</li>
+            </ul>
+          </div>-->
+          <img src="image/lis.png">
+        </header>
+
+        <!-- Barra de navegación -->
+        <nav class="navigation mdl-navigation" style="background-color: #481A71">
+          <a class="mdl-navigation__link" href="index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Inicio</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons">pets</i>Manada</a>
+          <a class="mdl-navigation__link" href="rut.html" target="_top"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">explore</i>Tropa</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">rowing</i>Clan</a>
+          <a class="mdl-navigation__link" href="colabora.html" target="contenido"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Colabora</a>
+          <div class="mdl-layout-spacer"></div>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Preguntas frecuentes </span></a>
+        </nav>
+      </div>
+
+      <main class="mdl-layout__content mdl-color--grey-100">
+
+        <!-- // Contenido // -->
+        <iframe class="frame1" src="entrada.html" id="contenido" name="contenido" frameborder="0" scrolling="no" width="100%" height="0" onload="autofitIframe(this);">
+        </iframe>
+        <!-- // Fin contenido // -->
+          
+      <!-- ******************************** -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="material.min.js"></script>
+          
+        <script language="JavaScript">
+            //Ajusta el tamaño de un iframe al de su contenido interior para evitar scroll
+            function autofitIframe(id){
+                if (!window.opera && document.all && document.getElementById){
+                    id.style.height=id.contentWindow.document.body.scrollHeight;
+                } else if(document.getElementById) {
+                    id.style.height=id.contentDocument.body.scrollHeight+"px";
+                }
+            }
+        </script>
+  </body>
+</html>
