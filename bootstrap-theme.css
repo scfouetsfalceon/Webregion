@@ -1,0 +1,282 @@
+h1 {
+  color: #622599;
+  margin: .67em 0;
+}
+
+h2 {
+  color: #622599;
+  margin: .67em 0;
+}
+
+h3 {
+  color: #000066;
+  margin: .67em 0;
+}
+
+h4 {
+  color: #000099;
+  margin: .67em 0;
+}
+.abajo {
+  clear:both;
+}
+.alado {
+  float: left;
+}
+.ajuste {
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
+.bienvenida {
+  color: #666;
+  font-size: 140%;
+  line-height: 1.5;
+}
+.btn-default {
+  color: #fff;
+  background-color: #4F1D7B;
+  border: #2D005A
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #622599;
+  border: #2D005A
+}
+.btn-primary {
+  background-color: #0054A0;
+  border: #2D005A
+}
+.btn-success {
+  background-color: #AABA0A;
+  border: #2D005A
+}
+.btn-warning {
+  background-color: #FF6600;
+  border: #2D005A
+}
+.container-fluid {
+    background-color: #ffffff;
+    padding: 1; 
+    }
+.carousel-control {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 15%;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+      filter: alpha(opacity=50);
+      opacity: .0;
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+          transition-duration: 2s;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.desvanece {
+    opacity: 1.0;
+    -webkit-transition: opacity 0.4s linear;
+    }
+.desvanece:hover {
+    opacity: 0.5;
+}
+.circuloazul {
+  color: white;
+  background-color: #4FB3ED;
+  border-radius: 50%;
+  float: left;
+  font-size: 3em;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;    
+}
+.degradado {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#622599+0,321659+100 */
+  background: rgb(98,37,153); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(98,37,153) 0%, rgb(50,22,89) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(98,37,153)), color-stop(100%,rgb(50,22,89))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(98,37,153) 0%,rgb(50,22,89) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgb(98,37,153) 0%,rgb(50,22,89) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(98,37,153) 0%,rgb(50,22,89) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgb(98,37,153) 0%,rgb(50,22,89) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#622599', endColorstr='#321659',GradientType=0 ); /* IE6-9 */
+}
+.ir-arriba {
+  border-radius: 5px;
+  display:none;
+  padding:7px;
+  background:#622599;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+.navbar {
+    background-color: #4F1D7B;
+    min-height: 55px;
+}
+.navbar-brand {
+  padding: 4px;
+  margin: 0px;
+}
+
+.navbar-collapse {
+  max-height: 450px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+ul.nav a, ul.nav a:hover, ul.nav a:active, ul.nav a:focus{
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: transparent;
+}
+ul.dropdown-menu {
+  background-color: #F5F5F5;
+}
+.dropdown-menu>li>a{
+    color: gray;
+}
+.dropdown-menu>li>a:hover{
+    color: #ffffff;
+    background-color: #622599
+}
+.morado {
+  background-color: #622599;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #622599;
+  margin: .67em 0;
+}
+
+h2 {
+  color: #622599;
+  margin: .67em 0;
+}
+
+h3 {
+  color: #000066;
+  margin: .67em 0;
+}
+
+h4 {
+  color: #000099;
+  margin: .67em 0;
+}
+}
+.nav-pills>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-pills>li>a>small {
+    display: block;
+}
+.nav-pills>li>a>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-btn {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 5px;
+}
+.navbar-header>button {
+    border-color: white;
+}
+
+.navbar-header>button span {
+    background-color: white;
+    border-color: white;
+}
+.navbar-toggle {
+  float: left;
+  margin-left: 8px;  
+}
+.semi {
+  background-color: rgba(0, 0, 0, 0.5)
+}
+.sombra {
+  box-shadow: 2px 2px 4px black;
+  -webkit-box-shadow: 2px 2px 4px black;
+  -moz-box-shadow: 2px 2px 4px black;
+}
+.tercio {
+  width: 33%
+}
+.texto-666 {
+  color: #666;
+}
+.texto-blanco {
+  color: #fff;
+}
+.textob2 {
+  text-shadow: 1px 1px 4px black;
+  color: #fff;
+  text-decoration: none;
+}
+
+.textob2 a {
+  text-shadow: 1px 1px 4px black;
+  color: #fff;
+  text-decoration: none;
+}
+
+.textob2 a:hover {
+  text-shadow: 1px 1px 4px black;
+  color: #CCCCFF;
+  text-decoration: none;
+}
+
+.texto-morado {
+  color: #622599;
+}
+
+.texto-gris {
+  color: gray;
+}
+
+.texto-peq {
+  font-size: 85%;
+}

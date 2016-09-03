@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bienvenido Hermano Scout">
+    <meta name="author" content="Enrique Valerio" >
+    <link rel="SHORTCUT ICON" href="icono.png">
+    <title>Bienvenidos Hermano Scout</title>
+
+    <!-- CSS de Bootstrap -->    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- CSS del 2º Tema Scouts para Bootstrap -->                 
+    <link href="bootstrap-theme2.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <style type="text/css">
+      .adultos {
+        color: #043487
+      }
+      .jovenes {
+        color: #622599;
+        font-size: 1.2em;
+      }
+      .evento {
+        width: auto;
+        height: 75px;
+      }
+      .evento:hover {
+        opacity: 0.7;
+        width: auto;
+        height: 73px;
+      }
+    </style>    
+    <!-- Ajustar iframe -->    
+    <script>
+     function redimensiona()
+     {
+          top.grand(document.body.scrollHeight);
+     }
+    </script>
+    <!-- Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+    
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- // Columnas // -->
+      <div class="row">
+        
+        <!-- // Columna 1 // -->
+        <div class="col-sm-6">
+
+          <!-- // Lo Nuevo // -->
+          <div class="panelnaranja" style="text-align: left; margin: 0px; border: 0px; padding-left: 5px;"><p class="lead"><i class="fa fa-bookmark"></i> Lo más reciente<p></div>
+              <!-- // Lista de Lo Nuevo // -->
+              <div class="list-group">
+
+                <a href="reunion/index.html" target="_top" class="list-group-item">I Reunión de la Comisión Nacional <big>de Comunicaciones</big></a>
+
+                <a href="esev/index.html" target="_top" class="list-group-item">Equipo Scout de Emergencias <big>ESEV</big></a>
+
+                <a href="profondos/index.html" target="contenido" class="list-group-item"><big> Campañas Profondos.</big> Como planificarlas y llevarlas a cabo</a>
+
+                <a href="https://form.jotformz.com/60362394203651" target="_blank" class="list-group-item"><big> Notificación </big>de actividades y eventos</a>
+                
+                <!-- <a href="redpaz/index.html" target="_blank" class="list-group-item">Proyecto <big> Red de Paz</big> alto al Bullying</a> -->
+                  
+                <a href="a_certificados.html" target="_top" class="list-group-item">Certificados de<big> Adultos</big> en la Región</a>
+                                
+              </div>
+
+
+              <!-- // Evento Resaltado I // -->
+              <div class="text-center center-block">                
+                                
+                <a href="redpaz/index.html" target="_blank"><img class="evento" alt="Logo Red de Paz" title="Proyecto Red de Paz" src="redpaz/logo3.jpg" hspace="10"></a>
+
+                <a href="cb/index.html" target="_top"><img class="evento" alt="Logo Curso Básico" title="Curso Básico" src="cb/logo.png" hspace="10"></a>
+                
+                <a href="http://www.jamboree.com.ve/" target="_blank"><img src="imagenes/jamboree.png" class="evento" title="Jamboree Nacional" alt="Jamboree Nacional" vspace="7" hspace="10"></a>
+
+                <a href="eventos/dia_playas.html" target="contenido"><img src="eventos/dia_playas/logo.jpg" class="evento" title="Día Mundial de las Playas" alt="Día Mundial de las Playas" vspace="7" hspace="10"></a>
+                                       
+              </div>        
+              <!-- // Fin Lo Nuevo // -->
+                                
+        </div><!-- // Fin Columna 1 // -->
+
+        <!-- // Columna 2 // -->
+        <div class="col-sm-6">
+          <!-- // Carrusel // -->
+          <div id="carousel" class="carousel slide carousel-fade hidden-xs" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="imagenes/inicio/001.jpg" alt="01">
+              </div>
+              <div class="item">
+                <img src="imagenes/inicio/002.jpg" alt="02">
+              </div>
+              <div class="item">
+                <img src="imagenes/inicio/003.jpg" alt="03">
+              </div>
+               <div class="item">
+                <img src="imagenes/inicio/004.jpg" alt="04">
+              </div>
+              <div class="item">
+                <img src="imagenes/inicio/005.jpg" alt="05">
+              </div>
+              <div class="item">
+                <img src="imagenes/inicio/006.jpg" alt="05">
+              </div>
+              <div class="item">
+                <img src="imagenes/inicio/007.jpg" alt="05">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div><!-- // Fin Carrusel // -->          
+        </div><!-- // Fin Columna 2 // -->
+      </div><!-- // Fin Columnas // -->
+
+      <!-- // Columnas // -->
+      <div class="row">
+          <!-- // Columna 1 // -->
+          <div class="col-sm-9">
+          <!-- // Contador Faltan Solo // -->
+            <div>
+              <div class="panelazul">
+                <big><b>Faltan tan solo</b></big>
+              </div>              
+
+              <!-- // Copiar desde aquí // -->
+              <a href="" target="">
+              <p><span class="adultos">- 
+              <script language="JavaScript">
+              var date = new Date("august 27, 2016");<!-- La Fecha del Evento
+              var description = " el Curso Básico"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 27 y 28 de agosto 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="" target="">
+              <p><span class="adultos">- 
+              <script language="JavaScript">
+              var date = new Date("august 27, 2016");<!-- La Fecha del Evento
+              var description = " el Taller de Supervicion y Evaluacion"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 27 y 28 de agosto 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="http://www.jamboree.com.ve/" target="_blank">
+              <p><span class="jovenes">- 
+              <script language="JavaScript">
+              var date = new Date("september 04, 2016");<!-- La Fecha del Evento
+              var description = " el Jamboree Nacional 2016"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 4 al 9 de septiembre de 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="eventos/dia_playas.html" target="contenido">
+              <p><span class="jovenes">- 
+              <script language="JavaScript">
+              var date = new Date("september 17, 2016");<!-- La Fecha del Evento
+              var description = " el Día Mundial de las Playas"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 17 de septiembre de 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="" target="">
+              <p><span class="jovenes">- 
+              <script language="JavaScript">
+              var date = new Date("september 24, 2016");<!-- La Fecha del Evento
+              var description = " las Acciones por la Paz"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 24 de septiembre de 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->              
+
+              <!-- // Copiar desde aquí // -->
+              <a href="" target="">
+              <p><span class="adultos">- 
+              <script language="JavaScript">
+              var date = new Date("october 01, 2016");<!-- La Fecha del Evento
+              var description = " el Taller de Estrategias Educativas"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 01 de octubre del 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="eventos01.html" target="contenido">
+              <p><span class="jovenes">- 
+              <script language="JavaScript">
+              var date = new Date("october 15, 2016");<!-- La Fecha del Evento
+              var description = " el JOTA-JOTI (Por Grupos)"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 15 al 17 de octubre de 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="" target="">
+              <p><span class="adultos">- 
+              <script language="JavaScript">
+              var date = new Date("october 28, 2016");<!-- La Fecha del Evento
+              var description = " los Talleres Técnicos para Adultos: Ambientación, Campismo Tropa y Campismo Clan"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 28 al 30 de octubre del 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="" target="">
+              <p><span class="adultos">- 
+              <script language="JavaScript">
+              var date = new Date("november 26, 2016");<!-- La Fecha del Evento
+              var description = " los Talleres de LOPNNA y ONA"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 26 de noviembre de 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Copiar desde aquí // -->
+              <a href="eventos01.html" target="contenido">
+              <p><span class="jovenes">- 
+              <script language="JavaScript">
+              var date = new Date("december 03, 2016");<!-- La Fecha del Evento
+              var description = " las 75.000 horas de solidaridad por Venezuela"; <!-- Y el nombre o descripción del evento
+              var now = new Date();
+              var diff = date.getTime() - now.getTime();
+              var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+              if (days > 1) {
+              document.write(days+1 + " días para" + description);
+              }
+              else if (days == 1) {
+              document.write("Sólo 2 días para" + description);
+              }
+              else if (days == 0) {
+              document.write("Sólo UN DIA para" + description);
+              }
+              else {
+              document.write("YA COMENZO" + description + "!");
+              }
+              </script>
+              </span>
+              <small> | 03 de diciembre de 2016</small></p></a>
+              <!-- // Copiar hasta aquí // -->
+
+              <!-- // Botón // --><p><a href="eventos01.html" target="contenido" class="btn btn-primary btn-sm" role="button">Leer más</a></p>
+            </div>
+          </div><!-- // Fin Columna 1 // -->
+
+          <!-- // Columna 2 // -->
+          <div class="col-sm-3">
+            <!-- // Evento Realizados // -->
+            <div class="center-block text-center hidden-xs">
+
+              <div class="panelmorado">
+                <big><b>Realizados</b></big>
+              </div>
+
+              <a href="eventos/turastro.html" target="_top"><img src="eventos/tu_rastro/logo1.png" class="evento" title="Tu rastro junto a mi rastro" alt="Tu rastro junto a mi rastro" vspace="7" hspace="10"></a>
+              
+              <a href="nii/index.html" target="_top"><img src="nii/image/icono_grande.png" class="evento" title="Curso Intermedio en Institucionales" alt="Logo Cursos Intermedios" hspace="10"></a>
+
+              <a href="#" target=""><img src="imagenes/cursos_j.svg" class="evento" title="Cursos Técnicos para Jóvenes" alt="Logo Cursos Técnicos para Jóvenes" hspace="10"></a>
+
+              <a href="eventos/juegos_amistad.html" target="contenido"><img src="eventos/juegos_amistad/logo1.png" class="evento" title="Juegos de la Amistad" alt="Logo Juegos de la Amistad" hspace="10" vspace="7"></a>
+
+              <a href="eventos/conquistadores.html" target="contenido"><img class="evento" alt="Logo Conquistadores de Brownsea" title="Conquistadores de Brownsea" src="eventos/conquistadores/conquistadores.jpg" hspace="10" vspace="7"></a>
+                      
+            </div>        
+          </div><!-- // Fin Columna 2 // -->
+        </div><!-- // Fin Columnas // -->
+      <hr>             
+    </article> <!-- // Fin Container // -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>  

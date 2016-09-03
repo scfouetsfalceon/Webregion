@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitios apropiados para actividades VAL">
+    <meta name="author" content="ASV Falcón">
+    <link rel="SHORTCUT ICON" href="icono.png">
+    <title>Sitios para VAL</title>
+  
+    <!-- CSS de Bootstrap -->    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- CSS del 2º Tema Scouts para Bootstrap -->                 
+    <link href="bootstrap-theme2.css" rel="stylesheet" media="screen">
+    <!-- CSS propio de sitio web para VAL -->                 
+    <link href="sitios/sitios.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <!-- Fuentes -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+        margin-top: -18px;
+      }
+    </style>
+
+  </head>
+  <body">
+    <!-- Barra de Navegacion -->
+      <nav class="navbar-fixed-top" role="navigation">
+        <div class="contenedor">
+          <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Moviles</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=""><img alt="Logo" width="170" height="auto" vspace="5" hspace="10" src="imagenes/logo_encabezado2.png"></a>            
+            </div>
+             <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav menues">
+                <li><a href="sitios/sitios2.html" target="_top"><i class="fa fa-map-marker fa-lg"></i> Información Sitios</a></li>
+                <hr class="visible-xs">
+                <li><a class="hide-collapse" href="#colabora"><i class="fa fa-puzzle-piece fa-lg"></i> Como Colaborar</a></li>
+                <hr class="visible-xs">
+                <li><a href="index2.html" target="_top"><i class="fa fa-chevron-left fa-lg"></i> Volver</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+      </nav><!-- Fin barra de navegación -->
+
+    <!-- Inicio -->
+    <section class="inicio"> <!-- // Contiene la parte superior de la página // -->
+      <h1 class="titulo">Sitios para Actividades al Aire Libre</h1>
+      <p class="parrafo1">Estimados Hermanos Scouts, este en un sencillo proyecto en línea para compartir información valiosa sobre sitios donde realizar <b>actividades de vida al aire libre</b>, la idea es que todos colaboremos en mejorar cada día esta herramienta.</p>
+    </section>
+
+    <!-- Colaborar -->
+    <a name="colabora"></a>
+    <img src="varilla.png" height="55px">
+    <section class="colabora well">
+      <img class="img-rounded hidden-xs" style="width: 255px; height: auto;" alt="Imagen Nº1" src="sitios/image/vikingos.jpg" align="right" hspace="10" vspace="7">
+      <h2>Como Colaborar</h2>
+      <p>Si deseas ayudar a mejorar la información contenida en esté proyecto, deberás llenar un sencillo formulario con la <big>información mínima requerida para ubicar el sitio y poder dar información básica para su utilización</big>.</p>
+      <p>Con la finalidad de dar información precisa, es necesario que <big>la ubicación del sitio sea dada en coordenadas</big>, las cuales puedes obtener de un GPS o a través de aplicaciones en línea como Google Maps </p>
+
+      <div class="text-center"></p>
+        <img class="img-rounded hidden-xs" style="width: 255px; height: auto;" alt="Imagen Nº3" src="sitios/image/rio_guiito.jpg" hspace="10" vspace="7">
+        <a href="sitios/formulario.html" target="contenido"><button class="btn btn-primary"><big><i class="fa fa-puzzle-piece fa-lg"></i> Quiero colaborar<br>con este Sitio Web</big></button></a>
+        <img class="img-rounded" style="width: 255px; height: auto;" alt="Imagen Nº 4" src="sitios/image/cuara.jpg" hspace="10" vspace="7">
+      </div>
+      <br>
+      <div class="panelmorado" style="text-align: justify; padding: 5px;">
+        Colaboración es todo proceso donde se involucra el trabajo de varias personas en conjunto tanto para conseguir un resultado muy difícil de realizar individualmente como para ayudar a conseguir algo a quien por sí mismo no podría.<br>
+        Es un aspecto intrínseco de la sociedad humana, y particularmente se aplica a diversos contextos, como la ciencia, el arte, la educación y los negocios; siempre relacionado con términos similares, como la cooperación y la coordinación.        
+      </div>
+    </section>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script type="text/javascript">
+    $( ".hide-collapse" ).click(function() {
+      $('.collapse').collapse('hide')
+    });
+  </script>
+
+  </body>
+</html>
