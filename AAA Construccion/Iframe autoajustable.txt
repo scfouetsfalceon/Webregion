@@ -1,0 +1,29 @@
+Para el Index
+
+    <!-- Ajustar iframe -->
+    <script>
+         function grand(h) {
+              iframe=document.getElementById("contenido")
+              iframe.height=h;
+         }
+    </script> 
+    <!-- Ajustar iframe -->
+
+
+<iframe src="entrada.html" id="contenido" frameborder="0" width="100%" height="10" name="contenido" scrolling="no" style="background: white"></iframe>
+
+***************************************
+
+Para las páginas hijas
+
+    <!-- Ajustar iframe -->
+    <script>
+     function redimensiona()
+     {
+          top.grand(document.body.scrollHeight);
+     }
+    </script>
+    <!-- Ajustar iframe --> 
+
+En body colocar : onLoad="redimensiona();"
+
