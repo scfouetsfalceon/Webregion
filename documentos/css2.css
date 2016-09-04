@@ -1,0 +1,187 @@
+/* CSS Document */
+
+*{
+text-decoration:none;}
+
+body {
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 12px;
+	    background-repeat:repeat-x;
+	    background-color:#622599;
+	 background-attachment:fixed;
+	}
+
+#banner {background-image:url(../img/banner2.jpg);
+	   	background-repeat:no-repeat;
+		background-color:#622599;
+                                 height:100px;
+		 min-width: 650px;
+ 		 max-width: 1000px;
+		 background-position:inherit;
+
+}
+
+#main {
+	background-color:#622599;
+                border-color:#0033FF;
+	border:none;
+	position:relative;
+	width:630px;
+	height:500px;
+	margin-left:2px;
+	margin-top:2px;
+	visibility: visible;
+	float:left;
+	   }
+
+#menu{ width:158px;
+                   color: #FFFFFF;
+                   background-color:#622599;
+		-webkit-box-shadow: #FFFFFF 5px 5px 10px; /*sombra del div*/
+	   -moz-box-shadow: #FFFFFF 5px 5px 5px; /*sombra del div*/
+	   box-shadow: #FFFFFF 5px 5px 5px;     /*sombra del div*/
+       
+		float:left;
+		margin-right:2px;
+		margin-top:2px;
+}
+
+
+#contenido{
+	    border-color:#76ABEB; 
+	   border:solid;
+	   border-width:thin;
+		width:720px;
+		height:425px;
+	   border-color:#FFFFFF; 
+	   margin-left:5px;
+		margin-top:5px;
+		padding-left:1px;
+		padding-top:1px;
+		padding-right:1px;
+		background-color:#FFFFFF;
+		color:#FFFFFF;
+		-webkit-box-shadow: #FFFFFF 5px 5px 3px ; /*sombra del div*/
+	   -moz-box-shadow: #FFFFFF 5px 5px 3px; /*sombra del div*/
+	   box-shadow: #CCCCCC 5px 5px 3px;     /*sombra del div*/
+	   }
+
+#derecho{ 
+ 		width:150px;
+		background-color:#622599;
+	    border:#D8DFEA; 
+		border:thin;
+	    border-width:thin;
+	    margin-left:5px;
+		margin-top:14px;
+	    float:left;
+
+	  }
+
+.publicidad{
+		width:143px;
+		height:118px;
+		background-repeat:no-repeat;
+		top:300px;
+		left:7px;
+		font-size:14px;
+		float:left;
+		z-index:10;
+		position:absolute;
+		}
+.publicidad2{
+		width:144px;
+		height:111px;
+		background-repeat:no-repeat;
+		top:424px;
+		left:7px;
+		font-size:14px;
+		float:left;
+		z-index:11;
+		position:absolute;
+		}
+
+
+#pie { 
+	margin-top: 5em;
+	text-align: center;
+	color: #FFFFFF;
+                width: 900px;
+	height:43px;
+	margin: 0 auto;
+	background-color:#622599;
+	border:#CAC8F9;
+	  -webkit-box-shadow: 2px 2px 2px #8b8e8f;
+	   -moz-box-shadow: 2px 2px 2px #8b8e8f;
+	  box-shadow: 2px 2px 2px #8b8e8f; 
+	   -moz-border-radius: 10px;
+		border-radius: 10px; 
+	   }
+	   
+
+#linqs{
+position:absolute;
+width:140px;
+height:300px;
+top:120px;
+left:890px;}
+		
+ 
+
+.men{
+background-color:#0000CC;
+border-color:#333333;
+width:80%;
+height:100px;
+text-align:left;
+list-style:none;
+border:thin;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.2em;
+margin-top:1px;
+margin-bottom:1px;
+
+}
+.menutexto:hover{background-color:#EEE0F5;
+color:#FFFFFF;
+	 }
+
+	 
+
+li{
+display:block;
+padding-top:2px;
+padding-bottom:2px;
+padding-left:2px;
+font-weight:lighter;}
+
+.menutexto{
+font-weight:600;
+font-family:Arial, Helvetica, sans-serif;
+text-transform:normal;
+vertical-align:middle;
+padding-bottom:5px;
+padding-top:5px;}
+
+.menutexto:first-letter:{font-size:18px; font-weight:bold;}
+
+.banner{
+width:170px;
+height:80px;
+clear:both;
+float:left;
+margin-bottom:2px;
+background-position:center;
+   padding:2px; 
+   background-color: #622599; 
+   width: 200px; 
+   border-bottom: 1px solid #999999; 
+   border-right: 1px solid #999999; 
+}
+
+.banner:hover {		
+-webkit-box-shadow: #244766 2px  0px; /*sombra del div*/
+-moz-box-shadow: #244766  2px 0px; /*sombra del div*/
+box-shadow: #244766  2px 0px;     /*sombra del div*/
+}
