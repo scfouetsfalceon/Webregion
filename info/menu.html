@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>          
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Menú de opciones para navergar en la pagina de Info de la Región Falcón">
+    <meta name="author" content="ASV Falcón">
+    <title>Menú de Contenido</title>
+      <!-- CSS de Bootstrap -->       
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <!-- CSS del Tema Scouts para Bootstrap -->            
+    <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    <link href="../bootstrap-theme2.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="../fontawesome/css/font-awesome.min.css">
+    <style type="text/css">
+    .textob2 a {
+      text-shadow: 1px 1px 4px black;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .textob2 a:hover {
+      text-shadow: 1px 1px 4px black;
+      color: #CCCCFF;
+      text-decoration: none;
+    }
+    .semi {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 110px;
+    }
+    </style>
+  <!-- Ajustar iframe -->    
+    <script>
+     function redimensiona()
+     {
+          top.grand(document.body.scrollHeight);
+     }
+    </script>
+    <!-- Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+      <article class="container-fluid">
+
+      <!-- Contenido del menú. Aquí se aplicó la clase textob2 para dar el efecto deseado a las partes del menú --> 
+        
+      <!-- DIV que contiene la imagen y el Menú--><div class="hidden-xs">
+        <img style="width: 100%" src="img/image01.jpg">
+        <!--DIV que contiene el menú para PC que va sobre la imagen -->
+        <div class="textob2 lead" style="position: absolute; left: 15px; top: 10px; z-index: 99; width: 95%;">
+          <div class="row">
+            <div class="col-sm-4 text-center semi" style="padding: 10px">
+              <a target="contenido" href="quienes_somos.html"><big><b>Quienes somos</b></big><br><small>Definición y Objetivos</small></a>        
+            </div>
+            <div class="col-sm-4 text-center semi" style="padding: 10px">
+              <a href="razones.html" target="contenido"><big><b>Qué logran los Scouts</b></big><br><small>Beneficios para el individuo y la sociedad </small></a>        
+            </div>
+            <div class="col-sm-4 text-center semi" style="padding: 10px">
+              <a target="contenido" href="estructura.html"><big><b>Nuestra Estructura</b></big><br><small>Cómo estamos organizados</small></a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-sm-4 text-center semi">
+              <a target="contenido" href="http://scoutsfalcon.org/promociones/fyer_ompp1.html"><big><b>Cómo apoyar el Movimiento Scout</big></b><br><small>Planes de Alianza y Patrocinio</a></small>
+            </div>
+            <div class="col-sm-4 text-center" style="padding: 10px">
+              <!-- Espacio vacío en el medio -->     
+            </div>
+            <div class="col-sm-4 text-center semi">
+              <a target="contenido" href="../eventos01.html"><big><b>Actividades</b></big><br><small>Calendario de la Región</small></a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-sm-4 text-center semi" style="padding: 10px">
+              <a target="contenido" href="ingresar.html"><big><b>Cómo ingresar a los Scouts</b></big><br><small>Más fácil y rápido de lo que imagina</small></a>      
+            </div>
+            <div class="col-sm-4 text-center semi">
+              <a target="contenido" href="programas.html"><big><b>Programas Especiales</b></big><br><small>Medioambiente, Emergencias, Promoción de la Paz...</small></a>        
+            </div>
+            <div class="col-sm-4 text-center semi" style="padding: 10px">
+              <a target="contenido" href="../mapa_scout.htm"><big><b>Dónde estamos</b></big><br><small>Ubicación de los Grupos Scouts</small></a>
+            </div>
+          </div>          
+        </div><!-- Final DIV que contiene el menú para PC que va sobre la imagen -->
+      </div><!-- Final DIV que contiene la imagen y el Menú-->
+      
+
+      <!-- Menú visible sólo para móviles -->
+      <div class="row abajo visible-xs">
+        <div class="col-sm-4 text-center" style="padding: 10px">
+          <a target="contenido" href="quienes_somos.html"><big><b>Quienes somos</b></big><br><small>Definición y Objetivos</small></a>        
+        </div>
+        <div class="col-sm-4 alert alert-info text-center">
+          <a href="razones.html" target="contenido"><big><b>Qué logran los Scouts</b></big><br><small>Beneficios para el individuo y la sociedad </small></a>        
+        </div>
+        <div class="col-sm-4 text-center" style="padding: 10px">
+          <a target="contenido" href="estructura.html"><big><b>Nuestra Estructura</b></big><br><small>Cómo estamos organizados</small></a>
+        </div>
+      </div>
+
+      <div class="row visible-xs">
+        <div class="col-sm-4 alert alert-info text-center">
+          <a target="contenido" href="http://scoutsfalcon.org/promociones/fyer_ompp1.html"><big><b>Cómo apoyar el Movimiento Scout</big></b><br><small>Planes de Alianza y Patrocinio</a></small>
+        </div>
+        <div class="col-sm-4 text-center" style="padding: 10px">
+          <img style="width: 180px; height: auto" alt="Ser Scout" src="img/ser_scout.gif">        
+        </div>
+        <div class="col-sm-4 alert alert-info text-center">
+          <a target="contenido" href="../eventos01.html"><big><b>Actividades</b></big><br><small>Calendario de la Región</small></a>
+        </div>
+      </div>
+
+      <div class="row visible-xs">
+        <div class="col-sm-4 text-center" style="padding: 10px">
+          <a target="contenido" href="ingresar.html"><big><b>Cómo ingresar a los Scouts</b></big><br><small>Más fácil y rápido de lo que imagina</small></a>      
+        </div>
+        <div class="col-sm-4 alert alert-info text-center">
+          <a target="contenido" href="programas.html"><big><b>Programas Especiales</b></big><br><small>Medioambiente, Emergencias, Promoción de la Paz...</small></a>        
+        </div>
+        <div class="col-sm-4 text-center" style="padding: 10px">
+          <a target="contenido" href="../mapa_scout.htm"><big><b>Dónde estamos</b></big><br><small>Ubicación de los Grupos Scouts</small></a>
+        </div>
+      </div>
+
+      <!-- Pie de página -->
+      <div class="row abajo panelcian visible-xs">
+        <div class="col-sm-6 text-center">
+          <a class="btn btn-primary" role="button" href="contactos.html" target="contenido">Contactos</a>   
+        </div>
+        <div class="col-sm-6 text-center">
+          <script language="JavaScript" type="text/javascript"> 
+              <!-- 
+                  // last modified script by Bernhard Friedrich; should work in all browsers 
+                  var a; 
+                  a=new Date(document.lastModified); 
+                  lm_year=a.getYear(); 
+                  if (lm_year<1000){                  //just in case date is delivered with 4 digits 
+                      if (lm_year<70){ 
+                      lm_year=2000+lm_year; 
+                      } 
+                      else lm_year=1900+lm_year; 
+                  }                                 //end workaround 
+                  lm_month=a.getMonth()+1; 
+                  if (lm_month<10){ 
+                      lm_month='0'+lm_month; 
+                  } 
+                  lm_day=a.getDate(); 
+                  if (lm_day<10){ 
+                      lm_day='0'+lm_day; 
+                  } 
+                  document.write("Última actualización " + lm_day+'/'+lm_month+'/'+lm_year); 
+              // --> 
+                    </script>      
+        </div>
+      </div><!-- Fin Pie de página -->
+    </article>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
