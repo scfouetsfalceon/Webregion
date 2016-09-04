@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="En todo el mundo, los Scouts están ejecutando proyectos que ayudan a las personas...Insignia Resuelven conflictos en la escuela mediante la prevención del acoso escolar, llevan a cabo programas de educación entre sus iguales, ayudan a los más necesitados, crean soluciones a los problemas ambientales, y ejecutan un sinnúmero de proyectos de servicio a otros.">
+    <meta name="author" content="ASV Falcón">
+    <link rel="SHORTCUT ICON" href="icono.png">
+    <title>Mensajeros de la Paz - Falcón</title>
+    
+    <!-- CSS de Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->    
+    <link href="bootstrap-theme2.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      body {
+        background-color: #ffffff;
+        padding-top: 47px;
+      }
+      a {
+        color: #fff;
+      }
+      .fija {
+        width: 20%;
+        height: auto;
+        position: fixed;
+      }      
+
+    </style>      
+
+    <!-- Ajustar iframe -->    
+    <script>
+      function grand(h) {
+          iframe=document.getElementById("contenido")
+          iframe.height=h;
+      }
+    </script><!-- Ajustar iframe -->
+  </head>
+  <body>
+  	<!-- // Container // -->
+  	<div class="container">	
+
+  		<!-- // Barra de navegación // -->
+      <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+  			<div class="navbar-header">
+  			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+  			      <span class="sr-only">Menu Moviles</span>
+  			      <span class="icon-bar"></span>
+  			      <span class="icon-bar"></span>
+  			      <span class="icon-bar"></span>
+  			    </button>
+            <a class="navbar-brand visible-xs" href=""><img alt="Logo" width="auto" height="45" src="imagenes/logo02.png"></a>
+  			   </div>
+  			<div class="collapse navbar-collapse navbar-ex1-collapse">
+  			 <ul class="nav nav-pills">
+  				  <li><a href="entrada.html" target="contenido">De que se trata</a></li>
+            <li><a href="quiere_saber_mas.html" target="contenido">¿Quieres saber más?</a></li>
+            <li><a href="listo_para_actuar.html" target="contenido">¿Listo para hacer la diferencia?</a></li>
+            <!-- <li><a href="http://scoutsvenezuela.org.ve/blogs/ppjj/mp/" target="_blank">Blog MdP - Venezuela</a></li> -->
+            <li><a href="../index2.html" target="_top">Scouts Falcón</a></li>
+  			 </ul>
+        </div>
+        </div>
+      </nav>     
+  		
+      <!-- // Columnas // -->
+      <article class="row">
+        
+        <!-- // Columna Logotipo Grande // -->
+        <div class="col-sm-3 center-block hidden-xs">
+          <img class="img-responsive fija" src="imagenes/logo1.jpg" alt="Logo de Mensajeros">            
+        </div><!-- // Fin Logotipo Grande // -->
+        
+        <!-- // Columna Contenido // -->
+        <div class="col-sm-9">
+          <!-- // Frame contenido // -->
+          <iframe src="entrada.html" id="contenido" name="contenido" style="background: white; padding-top: 5px; padding-bottom: 5px; margin-bottom: 5px; margin-top: 5px;" frameborder="0" height="500" scrolling="no" width="100%">
+          </iframe>
+          <!-- // Fin Frame Contenido // --> 
+        </div><!-- // Fin Columna Contenido // -->     
+
+      </article><!-- // Fin Columnas // -->  		
+    </div> <!-- // Fin Container // -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
