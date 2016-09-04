@@ -1,0 +1,76 @@
+/*!
+CSS para definir estilo propio de la web ESEV - Falcón
+*/
+body {
+	color: #333;
+}
+h1 {
+	color: #622599;
+	font-size: 2em;
+}
+h2 {
+	color: #654793;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.brillo {
+	text-shadow: white 1px 1px 1px;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+.ir-arriba {
+  border-radius: 5px;
+  padding:7px;
+  background:#622599;
+  font-size:40px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+.panelmorado {
+  color: #DDD;
+  background-color: #622599;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  margin: 2px;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
