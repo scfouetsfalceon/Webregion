@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Campore Región Falcón">
+    <meta name="author" content="ASV Falcón">
+    <title>Campore 2015 - Organigarama</title>
+    <!-- CSS de Bootstrap -->        
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->
+    <link href="../bootstrap-theme2.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="../fontawesome/css/font-awesome.min.css">
+    <!-- CSS  jOrgChart-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/jquery.jOrgChart.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="prettify.js"></script>
+    
+    <!-- jQuery includes -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    
+    <script src="jquery.jOrgChart.js"></script>
+
+    <script>
+    jQuery(document).ready(function() {
+        $("#org").jOrgChart({
+            chartElement : '#chart',
+            dragAndDrop  : true
+        });
+    });
+    </script>
+  </head>
+
+  <body onload="prettyPrint();">
+  <!-- Barra de Navegacion -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Moviles</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="inicio.html" target=""><i class="fa fa-home fa-lg"></i> Inicio</a></li>
+              <li><a href="proyecto.html" target=""><i class="fa fa-leaf fa-lg"></i> Proyecto PSMM / MdP</a></li>
+              <li><a href="sitio.html" target=""><i class="fa fa-map-signs fa-lg"></i> Sitio del Evento</a></li>
+              <li><a href="programa.html" target=""><i class="fa fa-child fa-lg"></i> Programa</a></li>
+              <li><a href="organigrama.html" target=""><i class="fa fa-sitemap fa-lg"></i> Organigrama</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav><!-- Fin barra de navegación -->
+
+    
+    <ul id="org" style="display:none">
+    <li>
+       <big><b>Consejo<br>Regional</b></big>
+       <ul>
+         <li><b>Víctor Zamarripa</b><br>Jefe de Campo<br><p>0426-5616484</p>
+           <ul>
+             <li>Ronald Rivas<br>Jefe Subc. Manada<p></p>
+               <ul>
+                 <li><big>Equipo Subcampo Manada</big></li>
+               </ul>
+             </li>
+             <li>Juan Zaparripa<br>Jefe Subc. Tropa<p>0416-1625733</p>
+               <ul>
+                 <li>Ivana Tigrera<br>JT Femenina<p></p>
+                  <ul>
+                    <li>Reynaldo Pulido<br>JT Masculina<p></p></li>
+                  </ul>
+                 </li>                 
+               </ul>
+             </li>
+             <li>Flavio González<br>Jefe Subc. Clan<p>0424-6506402</p>
+               <ul>
+                 <li>Johan Soto<br>Programa
+                  <ul>
+                    <li>José Linares<br>Logística<p>0424-6208592</p>
+                      <ul>
+                        <li>Dálida Stacchiotti<br>Comunicaciones
+                          <ul>
+                            <li>César Castillo<br>Administración<p>0424-6523556</p></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                 </li>          
+                 
+               </ul>
+             </li>
+             <li><b>Areas de<br>Apoyo</b>
+           <ul>
+             <li>Carmen Jordán<br>Administradora<p>0426-8608559</p>
+               <ul>
+                 <li>José Montano<br>Logística</li>
+               </ul>
+             </li>
+             <li>Enrique Valerio<br>Comunicaciones<p>0414-9685112</p>
+               <ul>
+                 <li>Tarsicio Díaz<br>ESEV</li>
+               </ul>
+             </li>
+           </ul>
+         </li>
+           </ul>
+         </li>               
+       </ul>
+     </li>
+   </ul>            
+    
+    <div id="chart" class="orgChart"></div>   
+    
+
+         <script>
+            jQuery(document).ready(function() {
+                
+                /* Custom jQuery for the example */
+                $("#show-list").click(function(e){
+                    e.preventDefault();
+                    
+                    $('#list-html').toggle('fast', function(){
+                        if($(this).is(':visible')){
+                            $('#show-list').text('Hide underlying list.');
+                            $(".topbar").fadeTo('fast',0.9);
+                        }else{
+                            $('#show-list').text('Show underlying list.');
+                            $(".topbar").fadeTo('fast',1);                  
+                        }
+                    });
+                });
+                
+                $('#list-html').text($('#org').html());
+                
+                $("#org").bind("DOMSubtreeModified", function() {
+                    $('#list-html').text('');
+                    
+                    $('#list-html').text($('#org').html());
+                    
+                    prettyPrint();                
+                });
+            });
+        </script>
+
+      </body>
+    </html>

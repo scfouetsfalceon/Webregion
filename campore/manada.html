@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Campore Región Falcón">
+    <meta name="author" content="ASV Falcón">
+    <title>Campore 2015 - Campo Manada</title>
+    <!-- CSS de Bootstrap -->        
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->
+    <link href="../bootstrap-theme2.css" rel="stylesheet" media="screen">
+    <!-- CSS Panoramica -->
+    <style type="text/css">
+    #panoramajavascript {
+    background-image: url(image/manada.jpg);
+    height: 250px;
+    width: 1000px;
+    background-position: left top;
+    cursor: move;
+    float: center;}
+    </style>    
+  </head>
+  <body>  
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <a name="arriba"></a>
+      <!-- // Botón para volver atras // -->
+      <p class="text-center"><a href="sitio.html" target="" class="btn btn-success btn-sm" role="button">Volver al Mapa General</a></p>
+      <br>
+      <p class="text-info"><b>Usa el puntero del ratón para navegar por la panorámica del lugar</b></p>
+      <div id="panoramajavascript">
+          <script type="text/javascript">
+          panoramajavascriptDiv=document.getElementById('panoramajavascript'); dragStartX=0;
+          dragStartY=0;
+          deltaX=1.0;
+          deltaY=0.0;
+          backgroundPosX=0.0;
+          backgroundPosY=-70.0;
+          timeout=20;
+          timerId=null;
+          function dragStart(e) {
+          if (!e) var e = window.event;
+          panoramajavascriptDiv.onmousemove=drag;
+          dragStartX=e.clientX;
+          dragStartY=e.clientY;
+          deltaX=0;
+          deltaY=0;
+          panoramajavascriptDiv.onmouseout=dragStop;
+          if (timerId) {
+          window.clearTimeout(timerId);}
+          timerId=window.setTimeout('scroll()',timeout);}
+          function drag(e) {
+          if (!e) var e = window.event;
+          deltaX=(e.clientX-dragStartX)/5;
+          deltaY=(e.clientY-dragStartY)/5;}
+          function dragStop() {
+          panoramajavascriptDiv.onmousemove=null;
+          panoramajavascriptDiv.onmouseout=null;
+          if (timerId) {
+          window.clearTimeout(timerId);}}
+          function scroll() {
+          backgroundPosX-=deltaX;
+          backgroundPosY=Math.max(0,Math.min(-
+          20,backgroundPosY-deltaY));
+          panoramajavascriptDiv.style.backgroundPosition=Math.floor
+          (backgroundPosX)+"px "+Math.floor(backgroundPosY)+"px";
+          timerId=window.setTimeout('scroll()',timeout);}
+          panoramajavascriptDiv.onmousedown=dragStart;
+          panoramajavascriptDiv.onmouseup=dragStop;
+          timerId=window.setTimeout('scroll()',50);
+          </script></div>
+      <br>
+      <!-- // Frame Contenido // -->
+      <div class="text-center" >
+      <iframe src="manada2.html" id="contenido" name="contenido" style="background: white; padding-top: 5px; padding-bottom: 5px; margin-bottom: 5px; margin-top: 5px;" frameborder="0" height="500" scrolling="no" width="80%">
+      </iframe>
+      </div>
+    </article><!-- // Fin container // -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<p><big><b>Nota:</b> para mayor seguridad, por favor copiar también a este correo todo lo referente a la parte administrativa:  <span class="text-info">administracion@scoutsfalcon.org</span></big></p>
+
+		<div class="alert alert-warning">
+            <p><b><big>Manada</big></b><br>
+            Aún por definir</p>
+         </div>
+          
+            <a href="../bestiaton/index.html" target="_blank">
+            <div class="alert alert-success text-center">
+              <img style="width: 110px; height: auto" class="hidden-xs" alt="Logo Bestiaton" title="Bestiaton ... La competencia máxima" src="../bestiaton/image/logo2.png">
+            <p class="text-center"><b>Actividad para Tropa</b></p>
+            </div>
+            </a>
+
+          <div class="alert alert-danger">
+            <p><b><big>Clan</big></b><br>
+            Aún por definir</p>
+          </div>
+
+          
+
+    
+      <!-- // Texto // -->
+          <div style="position:absolute; top:210px; left:230px; width:300; heigth: 200">
+            <a href="tropa.html" target=""><p class="text-center"><b>Campo de<br>Tropa</b></p></a>
+          </div>              
+          <img alt="Sitio Campore" title="Mapa Campore 2015" align="left" src="image/sitio.svg"> 
