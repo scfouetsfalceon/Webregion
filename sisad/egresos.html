@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Control de Egresos">
+    <meta name="author" content="ASV Falcón">
+    <title>Control de Egresos</title>
+
+    <!-- CSS de Bootstrap -->     
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->    
+    <link href="../bootstrap-theme2.css" rel="stylesheet" media="screen"><!-- Tracking de Google Analytics - No borrar -->           
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-40312913-3', 'auto');
+     ga('send', 'pageview');
+
+    </script><!-- Tracking de Google Analytics - No borrar -->
+    
+  </head>
+  <body>
+    <!-- // Container // -->
+    <div class="container-fluid">    
+
+    <a name="arriba"></a>
+    <!-- // Titulo Sección // -->
+    <h3 style="text-align: right; color: rgb(0, 0, 102);">Egresos Mensuales</h3>
+    <!-- // Barra de Navegación // -->
+    <ul class="nav nav-pills">
+      <li><a href="#paso1">Paso 1 - Abrir el Archivo<br></a></li>
+      <li><a href="#paso2">Datos Generales<br></a></li>
+      <li><a href="#paso3">Asiento de los Egresos<br></a></li>
+      <li><a href="#paso4">Código: Partida Contable<br></a></li>
+      <li><a href="#paso5">Como Reportar<br></a></li>
+      <li><a href="#paso6">Ayudas<br></a></li>  
+      <li><a target="contenido" href="mensual.html"><strong><span class="glyphicon glyphicon-fast-backward"></span> Volver</strong><br></a></li></ul>
+    <hr style="border: 1px dotted blue; width: 100%;">
+    <!-- // Texto // -->
+    <p>Tal como mencionamos en la sección de <a href="politica.html">Políticas del área de Administración</a>,
+    la Constitución y leyes de cualquier país del mundo nos exigen llevar
+    nuestra contabilidad al día de una forma clara y precisa, y para esto
+    es necesario que <strong>todos los niveles de la estructura reporten en un lapso no mayor a 15 días</strong> después de haber terminado el mes, su relación de ingresos y egresos.</p>
+    <p>Para eso la Dirección Nacional de Administración, ha dispuesto una
+    serie de formatos, los cuales están contemplados en este sistema. Estos
+    reportes deben ser entregados y supervisados por los diferentes niveles
+    de la estructura de la siguiente forma:</p>
+    <div class="well" style="background-color: rgb(255, 255, 204);">
+    <p>• Los GRUPOS deben entregarlos a los DISTRITOS. <br>
+    • Los informes tanto de los GRUPOS como del DISTRITO a las REGIONES.<br>
+    • Los informes de los GRUPOS , DISTRITOS y REGION al CENTRO DE SERVICO SCOUT NACIONAL (CSSN)</p>
+    </div>
+    <p><big><strong>Por esto se ha determinado que todos los archivos de los
+    grupos y distritos, debe estar guardados en espacios compartidos a
+    través de la Internet</strong>, para que de esta forma en nivel supervisor pueda hacer seguimiento y apoyar en caso necesario.</big></p>
+    <p>Esta condición se debe a que la Asociación de Scouts de Venezuela posee
+    una sola personalidad jurídica con domicilio legal en la ciudad de
+    Caracas según reza en el registro mercantil.</p>
+    <p>Estos formatos fueron diseñados de una forma muy simple y con los
+    requisitos mínimos para poder contabilizarlos, pueden ser utilizados
+    por cualquier nivel de la estructura y no deben ser modificados.</p>
+    <hr style="border: 1px dotted gray; width: 100%;">
+    <div class="well" style="background-color: rgb(255, 255, 204);">
+    <a name="paso1"></a>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-3"><!-- // Columna 1 // -->
+    <img src="image/paso1.png">
+    </div>
+    <div class="col-sm-6"><!-- // Columna 2 // -->
+    <h3 style="color: gray;"><strong>Paso 1</strong></h3>
+    <p>Lo primero que debemos hacer es entrar en la carpeta de <strong>Dropbox</strong> de nuestro Grupo, Distrito o Región, allí donde mismo Trabajamos con el TURCO, y hacer doble clic sobre la carpeta <strong>Sistema Administrativo</strong></p>
+    <p>Luego esta se abrirá y nos permitirá ver todos los archivos del mismo. Allí debemos hacer doble clic sobre el archivo <strong>Egresos.xls</strong></p>
+    <p><span style="color: red;">Importante:</span> Es necesario que tengamos instalado <strong>MS Excel</strong> u otro <strong>que cumpla las misma</strong> en nuestra computadora, para que todos los archivos del Sistema funcionen adecuadamente.</p>
+    </div>
+    <div class="col-sm-3"><!-- // Columna 3 // -->
+    <img src="image/egreso01.png">
+    </div>
+    </div><!-- // Fin columnas // --> 
+    </div>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-4"><!-- // Columna 1 // -->
+    <img class="img-responsive" src="image/egreso00.png" align="left" hspace="9" vspace="7">
+    </div>
+    <div class="col-sm-8"><!-- // Columna 2 // -->
+    <br><p>Al abrir nuestro archivo <span style="font-weight: bold;">Egresos.xls</span>, este nos pedirá que confirmemos la ejecución de los Macros necesarios para que funciones el sistema.<br><br>
+    <big>Debemos pulsar donde dice <span style="font-weight: bold;">Habilitar Macros</span>.</big><br>
+    </p><div class="panel" style="text-align: left; background-color: rgb(255, 255, 204);"><span style="color: red;">Nota: </span>Es
+    posible que no aparezca este mensaje, si la configuración de Excel está
+    ajustada para permitir todas las Macros, en este caso no hay ningún
+    problema.
+    </div>
+    </div>
+    </div>
+    <br>
+    <p>Finalmente aparecerá una ventana advirtiendo que el archivo o libro,
+    está vinculado a otros archivos, lo cual es necesario para que funcione
+    el sistema.<br>
+    En este caso debemos pulsar sobre el botón <strong>Actualizar</strong>, tal como lo muestra la imagen.</p><br>
+    <img class="img-responsive" src="image/actualizar.png"><br>
+    <br>
+    <!-- // Flecha Arriba // -->
+    <div style="text-align: center;">
+    <a href="#arriba"><big><big><span class="glyphicon glyphicon-circle-arrow-up"></span></big></big></a>
+    </div><!-- // Fin Flecha Arriba // -->
+    <br>
+    <a name="paso2"></a>
+    <h3 style="color: gray;"><strong>Datos Generales</strong></h3>
+    <p>Estos datos se llenarán automáticamente con lo que se escriba en el formato <strong>“CONSOLIDADO ADMINISTRATIVO”</strong>, contenido en el sistema, lo cual evita volver a escribir lo mismo.<br>
+    Por tratarse de una relación <strong>MENSUAL</strong>, las celdas EVENTO, LUGAR, FECHA y CUOTA quedan en blanco.</p>
+    <img class="img-responsive" src="image/egresos1.png">
+    <br>
+    <!-- // Flecha Arriba // -->
+    <div style="text-align: center;">
+    <a href="#arriba"><big><big><span class="glyphicon glyphicon-circle-arrow-up"></span></big></big></a>
+    </div><!-- // Fin Flecha Arriba // -->
+    <br>
+    <a name="paso3"></a>
+    <h3 style="color: gray;"><strong>Asiento de los Egresos</strong></h3>
+    <p>Este formato cuenta con varias filas en las cuales se deben reportar cada uno de los <strong>EGRESOS</strong>, y cuenta con las siguientes columnas:</p>
+    <img class="img-responsive" src="image/egresos2.png">
+    <br>
+    <p style="color: rgb(0, 0, 102);"><strong><big>A continuación se explica detalladamente cada una de estas columnas</big></strong>
+    </p>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-2"><!-- // Columna 1 // -->
+    <img src="image/egresos2a.png">
+    </div><br>
+    <div class="col-sm-10"><!-- // Columna 2 // -->
+    <p><strong>Nº DOC. </strong>Aquí debe colocar la información del documento que respalda el Egreso: <br>
+    </p>
+    <p style="font-style: italic; margin-left: 40px;">1 <strong>Retiro</strong>: R-Numero del Retiro <br>
+    </p>
+    <p style="font-style: italic; margin-left: 40px;">2 <strong>Cheque</strong>: C-Numero de Cheque <br>
+    </p>
+    <p style="font-style: italic; margin-left: 40px;">3 <strong>Transferencia</strong>: T-Numero de Transferencia <br>
+    </p>
+    <p style="font-style: italic; margin-left: 40px;">4 <strong>Efectivo</strong>: Efectivo</p>
+    </div>
+    <p>Se debe colocar el número del documento que lo respalda. Ejemplo: si
+    se sacó un dinero de la cuenta para pagar un transporte, debe colocarse
+    el número del bauche de retiro.</p>
+    <p><big><em>Para evitar que constantemente haya que sacar pequeñas
+    sumas de efectivo de la cuenta bancaria, para pagar gastos menores, se
+    debe tener una <strong>Caja Chica</strong></em>.</big></p>
+    <p>Cada movimiento deberá ir respaldado por una factura, bauche o
+    recibo, cuyo número se deberá asentar en la columna OBSERVACIONES.
+    </p>
+    </div><!-- // Fin columnas // -->
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-4"><!-- // Columna 1 // -->
+    <img src="image/egresos2b.png">
+    </div>
+    <div class="col-sm-8"><!-- // Columna 2 // -->
+    <br><p><strong>BANCO</strong> Coloque el nombre del Banco en donde se realizo el retiro, se emitio cheque o transferencia.</p>
+    <p><strong>FECHA</strong> Coloque en orden cronológico (empezando por
+    la fecha más antigua hasta la fecha más reciente) el día, mes y año en
+    que fue realizado el egreso.</p>
+    </div>
+    </div><!-- // Fin columnas // -->
+    <br>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-5"><!-- // Columna 1 // -->
+    <img class="img-responsive" src="image/egresos2c.png">
+    </div>
+    <div class="col-sm-7"><!-- // Columna 2 // -->
+    <p><strong>CONCEPTO</strong> Explique brevemente la causa del egreso
+    por ejemplo: Compra de Pintura, Agua y hielo para actividad de
+    servicio, Pago transporte al Cadipas, etc.</p>
+    <p><strong>MONTO Bs.</strong> Coloque el monto en bolívares (Bs.) incluyendo dos céntimos.</p>
+    </div>
+    </div><!-- // Fin columnas // -->
+    <div class="row"><!-- // Comienzan columnas // -->
+    <br>
+    <div class="col-sm-3"><!-- // Columna 1 // -->
+    <img src="image/egresos2d.png">
+    </div>
+    <div class="col-sm-9"><!-- // Columna 2 // -->
+    <p><strong>OBSERVACIONES</strong> Coloque aquí información adicional que ayude a la conciliación de las cuentas de manera más rápida y eficiente.</p>
+    <br>
+    <p style="color: rgb(0, 0, 102);"><big>Recuerde escribir aquí información adicional (números de facturas o recibos) de los pagos y compras hechas.</big></p>
+    </div>
+    </div><!-- // Fin columnas // -->
+    <br>
+    <!-- // Flecha Arriba // -->
+    <div style="text-align: center;">
+    <a href="#arriba"><big><big><span class="glyphicon glyphicon-circle-arrow-up"></span></big></big></a>
+    </div><!-- // Fin Flecha Arriba // -->
+    <br>
+    <a name="paso4"></a>
+    <h3 style="color: gray;"><strong>Código: Partida Contable</strong></h3>
+    <p><big>Estos son los tipos de egresos que intervienen en un registro y
+    que forman parte de los estados financieros. Para seleccionarlos
+    simplemente debes pulsar sobre la <strong>lista desplegable</strong>.</big></p>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-4">
+    <div style="text-align: center;"><!-- // Columna 1 // -->
+    <img src="image/egresos2e.png">
+    </div>
+    <p><strong><br>
+    </strong></p>
+    <p><strong>Compras de bienes para actividades</strong> = Se refiere a
+    toda la compra de materiales, artículos, o herramientas que tengan como
+    destino se usados en una actividad Scout.</p>
+    <p><span style="font-weight: bold;">Otras compras</span> = Son todas la
+    compra de materiales, artículos, o herramientas que NO vayan a ser
+    usados en una actividad Scout; pero que aún así pasarán a ser
+    propiedada de la organización.</p>
+    <p><strong>Arrendamiento de Local </strong>= Corresponde al pago por
+    concepto de alquiler, de cualquier inmueble (salón, casa, finca,
+    terreno, etc.) que haya sido usado para alguna actividad o evento
+    Scout. Incluyendo fiestas y celebraciones.</p>
+
+    </div>
+    <div class="col-sm-4"><!-- // Columna 2 // -->
+    <p><strong>Alquiler de Vehículos</strong> = Abarca
+    el pago por concepto de transporte (incluyendo vehículos con o sin
+    chofer) que se haya utilizado para alguna actividad o evento scouts,
+    así como también para las diligencias previas a un evento, o para
+    gestiones que tengan que ver con el beneficio de la institución.</p>
+    <p><strong>Mantenimiento de Vehiculo </strong>= Se refiere los gastos
+    ocasionados por la reparaciones, mantenimiento o mejoras hechas a los
+    vehículos propiedad de la institución.</p>
+    <p><span style="font-weight: bold;">Personal contratado</span> = Son los
+    pagos que se derivan al emplear a alguien para un trabajo, en función
+    de alguna actividad, evento o trabajo en general.</p>
+    <p><strong>Bebidas e hielo </strong>= Contempla la compra de agua,
+    bebidas y/o hielo, así como los servicios conexos; para cualquier
+    evento o actividad. Incluyendo reuniones, consejos y asambleas.</p>
+
+    <p><strong>Comidas y Refrigerios </strong>=
+    Contempla la compra de comida preparada o sin preparar, así como los
+    servicios conexos, para cualquier evento o actividad. Incluyendo
+    reuniones, consejos y asambleas.</p>
+    <p><strong>Otros gastos operativos </strong>= Cualquier otro dinero desembolsado por la organización en el desarrollo de sus funciones.</p>
+    </div>
+    <div class="col-sm-4"><!-- // Columna 3 // -->
+    <p><strong>Honorarios Profesionales</strong> = Remuneración pagada a un
+    profesional en libre ejercicio por su trabajo. Es la paga que percibe
+    una persona que ejerce su profesión de manera independiente (y no bajo
+    relación de dependencia). Ejemplo: Abogados, Médicos, Contadores, etc.  </p>
+    <p><strong>Electricidad</strong>  = Todos los pagos concernientes al pago de servicio eléctrico o similares.</p>
+    <p><strong>Teléfonos e Internet </strong>= Todos los gastos
+    concernientes a los servicios de telefonía fija o celular, así como
+    también de Internet, que estén relacionados con las actividades y
+    eventos, o el funcionamiento día a día de la organización.</p>
+    <p><strong>Mantenimiento de Sede</strong> = Se refiere los gastos
+    ocasionados por la reparaciones, mantenimiento o mejoras hechas a los
+    locales propiedad de la institución, o que nos han sido alquilados,
+    prestados o cedidos para nuestro uso.</p>
+    <p><strong>Papelería</strong> = Comprar
+    relacionadas con sobres o papel mebretado, recibos, tarjetas de
+    visita,volantes, afiches, plegables y todo el material que se emplea
+    para la comunicación gráfica, de la organización.</p>
+    <p><strong>Insumos de Oficina </strong>= Son todos los bienes consumibles que se utilizan para los trabajos de oficina (lápices, marcadores, tinta, clips, cinta, etc).</p>
+    <p><strong>Otros gastos administrativos </strong>= Cualquier otro gasto no contemplado ya, que se se genere por el manejo o dirección de la institución.</p>
+    </div>
+    </div><!-- // Fin columnas // -->
+    <br>
+    <div style="background-color: rgb(255, 204, 255);" class="well">
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-8"><!-- // Columna 1 // -->
+    <p style="text-align: center;"><big style="color: red;"><strong>IMPORTANTE</strong></big> <br>
+    </p>
+    <p>Si se introduce un monto cualquiera; <strong>pero no se le asigna un CODIGO</strong>,
+    aparecerán 2 señales de advertencia.
+    La primera en la parte superior de la columna donde están ubicados los
+    CODIGOS, y la segunda en la fila específica donde falte asignar el
+    mencionado. <br>
+    </p>
+    <p><big>Esto para evitar errores contables, entre el control de Egresos y el Consolidado Administrativo</big></p>
+    </div>
+    <div class="col-sm-4"><!-- // Columna 2 // -->
+    <img class="img-responsive" src="image/codigo1.png">
+    </div>
+    </div><!-- // Fin columnas // -->
+    </div>
+    <br>
+    <!-- // Flecha Arriba // -->
+    <div style="text-align: center;">
+    <a href="#arriba"><big><big><span class="glyphicon glyphicon-circle-arrow-up"></span></big></big></a>
+    </div><!-- // Fin Flecha Arriba // --> 
+    <br>
+    <a name="paso5"></a>
+    <h3 style="color: gray;"><strong>Como Reportar</strong></h3>
+    <p><big>El Sistema permite un monitoreo constante del avance de la
+    gestión administrativa, por parte del supervisor inmediato; pero esto
+    no es suficiente para cumplir con las leyes de la República en este
+    sentido.</big></p>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-4"><!-- // Columna 1 // -->
+    <img class="img-responsive" src="image/egresos3.png">
+    </div>
+    <div class="col-sm-8"><!-- // Columna 2 // -->
+    <p>En vista de los antes expuesto, para completar cada hoja de reporte
+    agrupe las copias de los cheques emitidos, bauches de retiro o
+    depósitos, comprobantes de las transferencias realizadas, facturas y
+    recibos; y engrápelos en la parte posterior. </p>
+    <p style="color: rgb(0, 0, 102);"><big>Recuerde que máximo deben ser en
+    grupos de treinta (30) para facilitar el trabajo de verificación por
+    parte de la Dirección Nacional de Administración.</big> </p>
+    </div>
+    </div><!-- // Fin columnas // -->
+    <p><strong>Es necesario que cada administrador conserve una copia de lo que está entregando. </strong>Estos
+    formatos con las copias deben ser utilizados y presentados debidamente
+    firmados y sellados, en los informes de Gestión de cada uno de los
+    entes, llámese Grupos, Distritos o Regiones.</p>
+    <br>
+    <!-- // Flecha Arriba // -->
+    <div style="text-align: center;">
+    <a href="#arriba"><big><big><span class="glyphicon glyphicon-circle-arrow-up"></span></big></big></a>
+    </div><!-- // Fin Flecha Arriba // -->
+    <br>
+    <a name="paso6"></a>
+    <h3 style="color: gray;"><strong>Ayudas para este archivo</strong></h3>
+    <div class="row"><!-- // Comienzan columnas // -->
+    <div class="col-sm-4"><!-- // Columna 1 // -->
+    <img class="img-responsive" src="image/instructivo1.png">
+    </div>
+    <div class="col-sm-4"><!-- // Columna 2 // -->
+    <p>Para acceder a este Instructivo, busca la pestaña Instructivo en la parte inferior del libro (junto a la de los meses), y luego pulsa sobre el botón Ir al Instructivo, que aparece en esa hoja.</p>
+    </div>
+    <div class="col-sm-4"><!-- // Columna 3 // -->
+    <img class="img-responsive" src="image/instructivo2.png">
+    </div>
+    </div><!-- // Fin columnas // --> 
+    <br>
+    <!-- // Flecha Arriba // -->
+    <div style="text-align: center;">
+    <a href="#arriba"><big><big><span class="glyphicon glyphicon-circle-arrow-up"></span></big></big></a>
+    </div><!-- // Fin Flecha Arriba // -->
+    </div> <!-- // Fin Container // -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
