@@ -1,7 +1,7 @@
-Desafio Scout I
+Webregion
 ===
 
-Sitio Web oficial de la Región Scout Falcón
+Sitio Web oficial de la Región Scout Falcón - ASV
 
 **Posibles tecnologias a utilizar:**
 * HTLM5
@@ -14,4 +14,4 @@ Sitio Web oficial de la Región Scout Falcón
 
 ## Requisitos
 * [Bower](https://bower.io/) - Desarrollo
-* [Jquery](https://jquery.com/)
+* [Jquery](https://jquery.com/) - Diseño y Dsarrollo
