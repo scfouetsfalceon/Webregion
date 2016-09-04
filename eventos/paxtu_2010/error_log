@@ -1,0 +1,3 @@
+[02-Aug-2010 00:15:17] PHP Warning:  require(mailer/class.phpmailer.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/scoutsfa/public_html/eventos/paxtu_2010/enviarmail.php on line 3
+[02-Aug-2010 00:15:17] PHP Warning:  require(mailer/class.phpmailer.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/scoutsfa/public_html/eventos/paxtu_2010/enviarmail.php on line 3
+[02-Aug-2010 00:15:17] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'mailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/scoutsfa/public_html/eventos/paxtu_2010/enviarmail.php on line 3
