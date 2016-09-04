@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>  
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Las camillas improvisadas pueden usarse cuando no disponemos de otros medios, empleando para su construcción cualquier material que esté a nuestro alcance.">
+    <meta name="author" content="Enrique Valerio" >
+    <title>Camillas improvisadas </title>
+    <!-- CSS de Bootstrap -->                
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->                
+    <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+    <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../auxilios.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+      
+      <h1>Camillas improvisadas</h1>
+      <p><big>Las camillas improvisadas pueden usarse cuando no disponemos de otros medios, empleando para su construcción cualquier material que esté a nuestro alcance.</big> En este caso la inventiva y agilidad mental; pero sobre todo la práctica, será lo que te de mejores resultados.</p>
+      <h4 class="alert alert-warning">A continuación, tres ejemplos de camillas improvisadas, usando:</h4>
+      <img class="img-responsive center-block" alt="Imagen camilla" title="Un par de bordones o palos, con una lona, sabana, sobretecho o similar." src="archivos_auxilios/camilla01.JPG" hspace="9" vspace="9">
+      <p class="text-center"><big><b>Un par de bordones o palos, con una lona, sabana, sobretecho o similar.</b></big></p>
+      <hr>
+      <img class="img-responsive center-block" alt="Imagen camilla" title="Un par de bordones o palos, con unas camisas, abrigos o similares." src="archivos_auxilios/camilla02.JPG" hspace="9" vspace="9">
+      <p class="text-center"><big><b>Un par de bordones o palos, con unas camisas, abrigos o similares.</b></big></p>
+      </div>
+      <hr>
+      <img class="img-responsive center-block" alt="Imagen camilla" title="Un par de bordones o palos, dos varas y mecate." src="archivos_auxilios/camilla03.JPG" hspace="9" vspace="9">
+      <p class="text-center"><big><b>Un par de bordones o palos, dos varas y mecate.</b></big></p>
+      </div>      
+      <img src="../img/varilla.png" width="1" height="50" alt="">      
+    </article><!-- // Fin Container // -->
+    <!-- Bootstrap core JavaScript
+        ================================================== --><!-- Situado al final del documento para que las páginas se carguen más rápido -->
+
+        <script src="../../bootstrap/js/jquery.js"></script>
+        <script src="../../bootstrap/js/bootstrap.js"></script>
+        <script src="../../bootstrap/js/docs.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

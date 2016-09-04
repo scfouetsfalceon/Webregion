@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Comunicaciones - Código Morse">
+      <meta name="author" content="Enrique Valerio" >
+      <title>Código Morse</title>
+      <!-- CSS de Bootstrap -->                
+      <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <!-- CSS del Tema Scouts para Bootstrap -->                
+      <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+      <!-- CSS de Font Awesome -->  
+      <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+      <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../comunicaciones.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+
+      <h2>Código Morse</h2>
+      <p><big>Código Morse, también conocido como Alfabeto Morse,</big> es un sis­tema de repre­sentación de letras y números mediante señales emiti­das de forma intermitente. </p>
+      <p class="panelamarillo">Fue desarrollado en Estado Uni­dos para la aplicación práctica del Telégrafo, inventado por <b>Samuel Morse</b> en 1836, de allí viene su nom­bre.</p>
+      <br>
+      <div class="row">
+        <div class="col-sm-3">
+        <b>
+          A • —<br>
+          B — • • •<br>
+          C — • — •<br>
+          D — • •<br>
+          E •<br>
+          F • • — •<br>
+          G — — •<br>
+          H • • • •<br>
+          I • •<br>
+          J • — — —<br>
+          K — • —<br>
+          </b>
+        </div>
+        <div class="col-sm-3">
+          <b>
+          L • — • •<br>
+          M — —<br>
+          N — •<br>
+          Ñ — — • — —<br>
+          O — — —<br>
+          P • — — •<br>
+          Q — — • —<br>
+          R • — •<br>
+          S • • •<br>
+          T —<br>
+          U • • —<br>
+          </b>
+        </div>
+        <div class="col-sm-3">
+        <b>
+          V • • • —<br>
+          W • — —<br>
+          X — • • —<br>
+          Y — • — —<br>
+          Z — — • •<br>
+          <p class="paneloro">Números</p>
+          0 — — — — —<br>
+          1 • — — — —<br>
+          2 • • — — —<br>
+          3 • • • — —<br>
+          4 • • • • —<br>
+          </b>
+        </div>
+        <div class="col-sm-3">
+        <b>
+          5 • • • • •<br>
+          6 — • • • •<br>
+          7 — — • • •<br>
+          8 — — — • •<br>
+          9 — — — — •<br>
+          <p class="panelazul">Símbolos</p>
+          . = • — • — • —<br>
+          , = — — • • — —<br>
+          ? = • • — — • •<br>
+          “ = • — • • — •<br>
+          </b>
+        </div>
+      </div>
+      <br>
+      <h4 class="text-danger"><b>Convenciones:</b></h4>
+      <p>−  Raya (señal larga)</p>
+      <p>•   Punto (señal corta)</p>
+      <p>Sí se comete una equivocación al transmitir un mensaje en Morse, la indicación de “Error” son ocho señales cortas (••••••••)</p>
+      <br>
+      <h3>Truco para memorizar el código</h3>
+      <p><big>Para facilitar el aprendizaje puedes utilizar un truco mne­motécnico, el cual te ayuda a aprenderlo, mediante una regla consistente en asig­nar a cada “Letra” una palabra clave.</big></p> 
+      <ul>
+        <li>La inicial de la palabra clave es la letra correspon­diente.</li>
+        <li>El número de vocales que contiene la palabra clave in­dica la
+        longitud de la codifica­ción en Morse de dicha letra.</li>
+        <li>Si la vocal es una “O” se sustituye por una raya (—)</li>
+        <li>Si se trata de cualquier otra vocal se sustituye por un punto (•)</li>
+      </ul>
+      <br>
+      <b>
+      <big>
+      <table class="table table-striped" style="width: 80%;">
+        <tbody>
+          <tr>
+          <td>
+          A
+          </td>
+          <td>
+          Asno /
+          Árbol
+          </td>
+          <td>
+          • —
+          </td>
+          <td>
+          O
+          </td>
+          <td>
+          Oporto /
+          Ozono
+          </td>
+          <td>
+          — — —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          B
+          </td>
+          <td>
+          Bogavante
+          </td>
+          <td>
+          — • • •
+          </td>
+          <td>
+          Ñ
+          </td>
+          <td>
+          Ñoño es
+          ñoño
+          </td>
+          <td>
+          — — • — —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          C
+          </td>
+          <td>
+          Coca-Cola
+          </td>
+          <td>
+          — • — •
+          </td>
+          <td>
+          P
+          </td>
+          <td>
+          Pelotota
+          </td>
+          <td>
+          • — — •
+          </td>
+          </tr>
+          <tr>
+          <td>
+          D
+          </td>
+          <td>
+          Docena
+          </td>
+          <td>
+          — • •
+          </td>
+          <td>
+          Q
+          </td>
+          <td>
+          Qocoliso
+          </td>
+          <td>
+          — — •
+          —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          E
+          </td>
+          <td>
+          Es / El
+          </td>
+          <td>
+          •
+          </td>
+          <td>
+          R
+          </td>
+          <td>
+          Ramona
+          </td>
+          <td>
+          • — •
+          </td>
+          </tr>
+          <tr>
+          <td>
+          F
+          </td>
+          <td>
+          Farandola
+          </td>
+          <td>
+          • • — •
+          </td>
+          <td>
+          S
+          </td>
+          <td>
+          Sardina
+          </td>
+          <td>
+          • • •
+          </td>
+          </tr>
+          <tr>
+          <td>
+          G
+          </td>
+          <td>
+          Góndola
+          </td>
+          <td>
+          — — •
+          </td>
+          <td>
+          T
+          </td>
+          <td>
+          Tos
+          </td>
+          <td>
+          —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          H
+          </td>
+          <td>
+          Himalaya
+          </td>
+          <td>
+          • • • •
+          </td>
+          <td>
+          U
+          </td>
+          <td>
+          Único
+          </td>
+          <td>
+          • • —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          I
+          </td>
+          <td>
+          Iris /
+          Isla
+          </td>
+          <td>
+          • •
+          </td>
+          <td>
+          <p>V
+          </td>
+          <td>
+          <p>Ventilador
+          </td>
+          <td>
+          <p>• • • —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          J
+          </td>
+          <td>
+          Jabonoso
+          </td>
+          <td>
+          • — —
+          —
+          </td>
+          <td>
+          <p>W
+          </td>
+          <td>
+          <p>Wevolo
+          </td>
+          <td>
+          <p>• — —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          K
+          </td>
+          <td>
+          Koalo /
+          Koinor
+          </td>
+          <td>
+          — • —
+          </td>
+          <td>
+          <p>X
+          </td>
+          <td>
+          <p>Xochimilco
+          </td>
+          <td>
+          <p>— • • —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          L
+          </td>
+          <td>
+          Limosina
+          </td>
+          <td>
+          • — • •
+          </td>
+          <td>
+          <p>Y
+          </td>
+          <td>
+          <p>Yosimojo
+          </td>
+          <td>
+          <p>— • —
+          —
+          </td>
+          </tr>
+          <tr>
+          <td>
+          M
+          </td>
+          <td>
+          Mono /
+          Moto
+          </td>
+          <td>
+          — —
+          </td>
+          <td>
+          <p>Z
+          </td>
+          <td>
+          <p>Zozobaba
+          </td>
+          <td>
+          <p>— — • •
+          </td>
+          </tr>
+          <tr>
+          <td>
+          N
+          </td>
+          <td>
+          Nota /
+          Noche
+          </td>
+          <td>
+          — •
+          </td>
+          <td>
+          </td>
+          <td>
+          </td>
+          <td>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+      </big>
+      </b>
+      <br>
+      <p>Por ejemplo, <b>Ramona</b> corresponde a la letra <b>R</b>, lo cual esta señalado por su inicial, así mismo tiene tres vocales, la primera es A, la segunda es O y la ter­cera es A, lo cual indica <b>• — •</b></p>
+      <img src="../img/varilla.png" width="1" height="50" alt="">      
+    </article> <!-- // Fin Container // -->
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

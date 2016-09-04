@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>  
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Un herido grave solo debe ser movido en caso de extrema necesidad.">
+    <meta name="author" content="Enrique Valerio" >
+    <title>Métodos para el traslado de heridos</title>
+    <!-- CSS de Bootstrap -->                
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->                
+    <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+    <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../auxilios.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+      
+      <h1>Métodos para el traslado de heridos</h1>
+      <p><big>Un herido grave solo debe ser movido en caso de extrema necesidad:</p>
+      <big><ul>
+        <li>Si no es posible que reciba atención médica donde se encuentra.</li>
+        <li>Si el lugar donde se encuentra sea peligroso (por ejemplo, cuando rescatamos a alguien de un incendio, inundaciones, etc.).</li>
+      </ul></big></big>
+      <p>En estos casos, debes verificar que al trasladar a la víctima esta no reciba mayores daños, y ya debe haber recibido la atención de Primeros Auxilios. </p>
+
+      <div class="row"><!-- Comienzan columnas -->
+        <div class="col-sm-6"><!-- Imagenes traslados -->
+          <h4 class="alert alert-warning">A continuación, tres ejemplos de como trasladar a un herido:</h4>
+          <img class="img-responsive center-block" alt="Imagen traslado" title="En camilla normal o improvisada, es el más apropiado." src="archivos_auxilios/traslado01.JPG" hspace="9" vspace="9">
+          <p class="text-center"><big><b>En camilla normal o improvisada, es el más apropiado.</b></big></p>
+          <hr>
+          <img class="img-responsive center-block" alt="Imagen traslado" title="Entre dos (sólo sino puede acostarse)." src="archivos_auxilios/traslado02.JPG" hspace="9" vspace="9">
+          <p class="text-center"><big><b>Entre dos (sólo sino puede acostarse).</b></big></p>
+          <hr>
+          <img class="img-responsive center-block" alt="Imagen traslado" title="Por una sola persona (Sólo en caso de que se estrictamente necesario y no haya otra forma)." src="archivos_auxilios/traslado03.JPG" hspace="9" vspace="9">
+          <p class="text-center"><big><b>Por una sola persona (Sólo en caso de que se estrictamente necesario y no haya otra forma)</b></big></p>
+        </div>
+
+        <div class="col-sm-6"><!-- Recomendaciones traslados -->
+          <p class="text-danger"><big><b>IMPORTANTE AL TRASLADAR UN HERIDO</b></big></p>
+          <big><ol>
+            <li>Debes recordar <big>transportarlo cómodamente</big> y abrigado</li>
+            <li><big>Las manos se meten bajo el cinturón (en lo posible),</big> para que en el transporte no se caigan y raspen con el piso.</li>
+            <li>Cuando sean dos camilleros deben usar el <big>método de Paso
+            Alternado, para evitar el vaivén de la camilla</big>. Esto quiere decir que cuando el camillero de adelante esta pisando con el pie derecho el camillero de atrás debe estar pisando con el pie izquierdo.</li>
+            <li>Cuando sean <big>4 o más camilleros no habrá mucho bamboleo</big> en la camilla.</li>
+            <li>Otra cosa que no debes olvidar es <big><span style="font-weight: bold;">vigilar siempre sus signos vitales,</span></big> por lo que el lesionado debe ir con la cabeza hacia atrás, así facilita que el camillero verifique constantemente.</li>
+            <li>Recuerda que <big>las fracturas deben ser previamente entablilladas</big> y en el caso de fracturas de columna sólo se le puede transportar sobre tablas rígidas y, para tramos cortos, con el método de transporte de 6 u 8 personas.</li>
+            <li>Fíjate que insistimos en CAMILLAS pues si se trata de lesiones graves es el medio más apropiado (excepto en las mencionadas fracturas de columna).</li>
+          </ol></big>
+        </div>
+      </div><!-- Fin columnas -->    
+    </article><!-- // Fin Container // -->
+    <!-- Bootstrap core JavaScript
+        ================================================== --><!-- Situado al final del documento para que las páginas se carguen más rápido -->
+
+        <script src="../../bootstrap/js/jquery.js"></script>
+        <script src="../../bootstrap/js/bootstrap.js"></script>
+        <script src="../../bootstrap/js/docs.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

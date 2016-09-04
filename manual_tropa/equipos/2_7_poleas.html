@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Equipos y Herramientas - La Polea">
+      <meta name="author" content="Enrique Valerio" >
+      <title>La Polea</title>
+      <!-- CSS de Bootstrap -->                
+    	<link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<!-- CSS del Tema Scouts para Bootstrap -->                
+   	<link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    	<style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe -->    
+    	<script>
+       	function redimensiona()
+	       {
+            top.grand(document.body.scrollHeight);
+   	    }
+    	</script>
+    	<!-- Ajustar iframe -->
+  	</head>
+ 	<body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../equipos.htm"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+            
+      <img style="width: 180px; height: auto;" alt="Foto polea" title="Polea simple" src="equipos_archivos/polea1.JPG" align="left" hspace="9">
+      <h2>La Polea</h2>
+      <p><big>Una polea es un dispositivo mecánico de tracción o elevación, formado por una rueda (también denominada roldana) montada en un eje, con una cuerda que rodea la rueda.</p></big>
+      <img style="width: 250px; height: 290px;" alt="Grafico polea fija" title="Polea fija" src="equipos_archivos/polea2.JPG" align="right" hspace="9">
+      <h3>Polea Fija</h3>
+      <p><big>Para elevar la carga, la fuerza que se ejerce tiene que ser mayor o igual que la resistencia. En este caso, la polea gira, pero sin moverse de su sitio, es una polea fija.</p></big>
+      <p class="text-center lead text-info"><b>F = R</b></p>
+      <img style="width: 310px; height: 300px;" alt="Grafico polea móvil" title="Polea móvil" src="equipos_archivos/polea3.jpg" align="left" hspace="9">
+      <p class="text-center"><i>F = fuerza; R = resistencia</i>
+      <p><big>Si por ejemplo se quiere levantar un peso de <b>100 Kg</b> se deberá ejercer una fuerza de <b>100 Kg</b> o más.</p></big>
+      <br>
+      <h3>Polea Móvil</h3>
+      <p><big>En este caso se divide por dos la fuerza realizada, pero es necesario tener el doble de cuerda.</p></big>
+      <p class="text-center lead text-info"><b>F = R/2</b></p>
+      <p class="text-center"><i>F = fuerza; R = resistencia</i>
+      <p><big>Es decir, que si se quiere levantar el mismo peso de <b>100 Kg</b>, en este caso la carga cuelga de la polea móvil, y se reparte entre las dos cuerdas.</p>
+      <p>Es decir, la mitad de peso lo soporta el tronco y la otra mitad quien levanta el objeto. Por lo cual sólo hay que ejercer una fuerza de <b>50 Kg</b></p></big>
+      <br>
+      <p class="panelazul"><strong>Mantenimiento de las poleas</strong></p>
+      <img style="width: 144px; height: 180px;" alt="Foto de aceitera" title="Aceitera" src="equipos_archivos/aceitera.png" align="right" hspace="9">
+      <p class="panelamarillo">- <big>Luego de usarla limpia cuidadosamente</big> cada una de sus partes. </p>
+      <p class="panelamarillo">- <big>Coloca unas gotas de aceite</big> entre el eje y la roldana, así como en el seguro del gancho, si lo tiene. </p>
+      <p class="panelamarillo">- <big>Guárdala</big> en un lugar seco, preferiblemente en una bolsa.</p>
+
+      <img src="../img/varilla.png" width="1" height="200" alt="">    
+    </article> <!-- // Fin Container // -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

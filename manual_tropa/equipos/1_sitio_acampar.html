@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Equipos y Herramientas - El sitio para acampar">
+      <meta name="author" content="Enrique Valerio" >
+      <title>El sitio para acampar</title>
+      <!-- CSS de Bootstrap -->                
+    	<link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<!-- CSS del Tema Scouts para Bootstrap -->                
+   	<link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    	<style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe -->    
+    	<script>
+       	function redimensiona()
+	       {
+            top.grand(document.body.scrollHeight);
+   	    }
+    	</script>
+    	<!-- Ajustar iframe -->
+  	</head>
+ 	<body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../equipos.htm"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <h2>El sitio para acampar</h2>
+
+      <p><img style="width: 250px; height: 226px;" alt="Sitio para acampar" title="Sitio para acampar" src="equipos_archivos/image001.gif" align="right" hspace="7">Ubica tu campamento cerca de una fuente de
+      agua potable, ya que esta es necesaria para beber, asearse y cocinar;
+      pero lo suficientemente alejado (unos 50 metros como mínimo), como para
+      evitar que cualquier objeto que ruede o algún desperdicio vaya a parar
+      allí.</p>
+
+      <p><big>El sitio de las carpas debe estar lejos de los baños, del
+      sector de la basura y de los caminos más transitados.</big> </p>
+
+      <h4>Ha de ser un lugar:</h4>
+
+      <p class="panelamarillo"><big>Alto, seco y protegido de los vientos
+      fuertes,</big> cuya dirección indican la inclinación de los pastos y
+      las ramas de los árboles. </p>
+
+      <p><big>A la sombra,</big> por lo menos durante la tarde.</p>
+
+      <p class="panelamarillo"><big>La puerta de la carpa irá contraria al
+      viento,</big> y debe ubicarse preferentemente más baja que la parte
+      trasera, para evitar que si llueve ingrese el agua que corre por el
+      terreno.</p>
+
+      <img alt="Foto zancudo" title="hay que evitar la plaga" src="equipos_archivos/image001.png" align="left">
+
+      <p>Evita ubicarte con el viento a favor de las lagunas, lagos o
+      represas, ya que <big>esto aumenta el problema de los zancudos y
+      jejenes.</big> </p>
+
+      <img style="width: 250px; height: auto;" alt="Foto carpa destruida" title="carpa destruida" src="equipos_archivos/image000.jpg" align="right" hspace="7">
+      <p class="panelamarillo"><big>Desecha también los lugares</big> debajo
+      de tendidos eléctricos, en cañadas, lechos de arroyos secos o recodos
+      más bajos que el agua.</p>
+
+      <p>Tampoco debajo de árboles secos o cuyas ramas puedan caerse; <big>puesto
+      que todos estos son lugares riesgosos.</big></p>
+
+      <p class="panelmorado"><strong>El sitio siempre estará limpio y
+      ordenado, lo que además de dar una buena imagen de los Scouts, evita
+      tentar a alimañas o animales salvajes.</strong></p>
+      <br>
+      <h3>El campismo y las inspecciones</h3>
+      <p>Las inspecciones matutinas son una buena tradición que pueden ayudar
+      en tu Tropa y Patrulla , y tienen como objetivo básico: Mantener en
+      orden el lugar, garantizando una buena limpieza y sanidad, y estimular
+      la buena presencia y el aseo.</p>
+      <p class="panelnaranja"><big><strong>Dependiendo del tipo de actividad se pueden aplicar varios tipos de inspecciones.</strong></big></p>
+      <br>
+      <dl class="dl-horizontal">
+      <dt>Por los dirigentes...</dt><dd>es la más común de todas, en ella tu Jefe y subjefes de Tropa recorren
+      los rincones de patrulla, mientras las mismas permanecen formadas,
+      luego se hacen las observaciones pertinentes.</dd>
+      <dt>Por los guías...</dt><dd>el Subguía queda a cargo mientras el Guía va a inspeccionar otra Patrulla, a su vez tu Patrulla es inspeccionada por otro Guía.<br>
+      </dd><dt>Auto inspección... <br>
+      </dt><dd>a la orden de tu Jefe de Tropa la Patrulla se inspecciona a si misma.</dd>
+      </dl>
+      <p class="well text-info">En actividades de varios días <b>es recomendable alternar los modos de inspección</b>, ya que esto resulta más entretenido y efectivo.</p>
+      <p class="text-center"><img style="width: 388px; height: 291px;" alt="Foto inspección" title="Inspección de una patrulla" src="equipos_archivos/image002.jpg"></p>
+      <hr>      
+    </article> <!-- // Fin Container // -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

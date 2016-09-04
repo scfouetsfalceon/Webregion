@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>  
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Las lesiones causadas por picaduras, por lo general… no son graves, sin embargo, puede ser fatal para aquellas personas que presentan alergia.">
+    <meta name="author" content="Enrique Valerio" >
+    <title>Picaduras y mordeduras</title>
+    <!-- CSS de Bootstrap -->                
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->                
+    <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+    <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../auxilios.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+      
+      <h1>Picaduras y mordeduras</h1>
+      <div class="row">
+        <div class="col-sm-6"><!-- Descripción general -->
+          <big><p>Comunmente son heridas muy pequeñas producidas principalmente por insectos, artrópodos, reptiles o animales marinos, los cuales inyectan sustancias tóxicas que actúan en la zona del piquete o causan reacción en todo el cuerpo (sistématica), todo depende del animal que lo causo, la cantidad de tóxico y la respuesta orgánica del afectado.</p>
+          <p class="alert alert-danger">Cuando una persona sabe que es alérgica a picaduras de insectos u otros animales, debe traer consigo siempre, <b>una placa o tarjeta que lo indique y el medicamento</b> que su médico le haya indicado para estos casos. El uso de repelentes puede ayudar a disminuir el riesgo.</p></big>
+          <p>Salvo las causadas por animales venenosos, las lesiones por picaduras, por lo general no son graves, sin embargo, puede ser fatal para aquellas personas que presentan alergia.</p>
+        </div>
+        
+        <div class="col-sm-6"><!-- Menú de temas -->
+          <h4>Como se trata de un tema bastante extenso, lo vamos a detallar en varias secciones</h4>
+          <div class="center-block"><img style="width: 200px; height: auto;" alt="Imagen cascabel" title="Vivora de casacabel" src="archivos_auxilios/serpiente.png" align="right" hspace="7" vspace="7"></div>
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="11_1_insectos.html" target="contenido">Que hacer en caso de picaduras de insecto</a></li>
+            <li><a href="11_2_medusas.html" target="contenido">Que hacer en caso de picaduras de medusa o agua mala</a></li>
+            <li><a href="11_3_alacran.html" target="contenido">Que hacer en caso de picaduras de alacrán o escorpión</a></li>
+            <li><a href="11_4_arana.html" target="contenido">Que hacer en caso de picaduras de araña</a></li>
+            <li><a href="11_5_mordedura.html" target="contenido">Que hacer en caso de una mordedura de perro, rata, murciélago u otro animal</a></li>
+            <li><a href="11_6_serpiente.html" target="contenido">Que hacer en caso de una mordedura de serpiente</a></li>
+          </ul>
+        </div>
+      </div><!-- // Fin Columnas // -->    
+      <hr>
+
+      <p><big><b>Si una persona es alérgica puede presentar shock anafiláctico.</b> Los síntomas pueden ser: desfallecimiento, palidez, sudoración, náuseas, vómitos, problemas respiratorios, aceleración del pulso, dolor de cabeza. <b>Si no se cuenta con el medicamento adecuado, esta condición puede causar la muerte.</b></big></p>
+      <p class="alert alert-success">Si la persona deja de respirar, debes realizar <a href="0_rcpc.html">respiración artificial de boca a boca</a>, y en caso de paro cardiaco debes practicar <a href="0_rcpc.html">RCPC</a>, y buscar ayuda médica de inmediato.</p>
+      <img src="../img/varilla.png" width="1" height="50" alt="">      
+    </article><!-- // Fin Container // -->
+    <!-- Bootstrap core JavaScript
+        ================================================== --><!-- Situado al final del documento para que las páginas se carguen más rápido -->
+
+        <script src="../../bootstrap/js/jquery.js"></script>
+        <script src="../../bootstrap/js/bootstrap.js"></script>
+        <script src="../../bootstrap/js/docs.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

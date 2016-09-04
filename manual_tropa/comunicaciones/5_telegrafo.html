@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Comunicaciones - Cómo construir un aparato de transmisión en Morse">
+      <meta name="author" content="Enrique Valerio" >
+      <title>Cómo construir un aparato de transmisión en Morse</title>
+      <!-- CSS de Bootstrap -->                
+      <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <!-- CSS del Tema Scouts para Bootstrap -->                
+      <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+      <!-- CSS de Font Awesome -->  
+      <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+      <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../comunicaciones.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+
+      <h2>Cómo construir un aparato de transmisión en Morse</h2>
+      <p>Como leíste ante­riormente, <big>Samuel Morse inventó el Telé­grafo en el año de 1836</big>.</p>
+      <p>Éste es un equipo que transmite señales eléctricas (emite y re­cibe), que se pueden convertir en sonidos y traducir mediante el código ya explicado.</p>
+      <br>
+      <!-- // Columnas // -->
+      <div class="row">
+        <!-- // Columna 1 // -->
+        <div class="col-sm-6">
+          <div class="alert alert-info">
+            <strong class="text-danger">Necesitarás</strong><br>
+            <div style="margin-left: 40px;">
+            2 Zumbadores o chicharras<br>
+            2 Tablas finas de 10cm x 15cm<br>
+            2 Pilas<br>
+            2 Bandas de hule<br>
+            4 Chiches<br>
+            2 Laminillas de metal fino<br>
+            Cable fino (De­pendiendo de la distancia que quieras en­tre puntos a
+            comu­nicar, recomen­dado 40 metros, para poder se­parar las esta­ciones
+            por lo menos 10 metros)<br>
+            </div>        
+          </div>
+        </div><!-- // Fin Columna 2 // -->
+        <!-- // Columna 2 // -->
+        <div class="col-sm-6">
+          <p class="text-success"><big><strong>Arma cada aparato según te mostramos a continuación.</strong></big></p>
+          <p class="text-center"><img width="320" height="auto" src="comunicaciones_archivos/image037.gif"></p>
+        </div><!-- // Fin Columna 2 // -->
+      </div><!-- // Fin Columnas // -->
+      <p>Luego conéctalos según este esquema… de ma­nera que uno de lo cables que activa la chicharra de un aparato, quede interrumpido por un pulsa­dor hecho con la laminilla de me­tal en el otro aparato. </p>
+      <p class="text-center"><img class="img-responsive" src="comunicaciones_archivos/image038.gif"></span></p>
+      <p>De esta forma al cerrar el circuito en el primer aparato la chicharra suena en el segundo y viceversa.</p>
+      <p>Hecho esto lo que resta es colocar las estaciones a la mayor distan­cia posible, preferiblemente ocultas detrás de un obstáculo de ma­nera que no puedan verse directamente… <b>y a divertirse por horas aprendiendo Morse, y transmitiendo mensajes con él.</b></p>
+      <img src="../img/varilla.png" width="1" height="50" alt="">      
+    </article> <!-- // Fin Container // -->
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

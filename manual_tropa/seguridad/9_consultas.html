@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Seguridad - Consultas para esta sección">
+      <meta name="author" content="Enrique Valerio" >
+      <title>Consultas para esta sección</title>
+      <!-- CSS de Bootstrap -->                
+    	<link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<!-- CSS del Tema Scouts para Bootstrap -->                
+    	<link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe -->    
+    	<script>
+       	function redimensiona()
+	       {
+            top.grand(document.body.scrollHeight);
+   	    }
+    	</script>
+    	<!-- Ajustar iframe -->
+  	</head>
+ 	<body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../seguridad.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <h2>Consultas para esta sección</h2>
+      <ul>
+         <li>DISTRITO SCOUT PARAGUANA, <i>Adelanto Progesivo</i> [en línea]. [Venezuela] http://www.scoutsparaguana.org/m_tropa/index_t1.htm [05-15/01/2013]</li>
+         <li>INFANCIA MISIONERA, <i>Los Derechos y Deberes en la LOPNA</i> [en línea]. [Venezuela] http://www.infancia-misionera.com/sami/categoria.ppt [08-15/01/2013]</li>
+         <li>GOOGLE, <i>Buscador de imágenes</i> [en línea]. [America Latina] http://www.google.co.ve/ [05-15/01/2013]</li>
+         <li>WIKIPEDIA, <i>Definiciones varias</i> [en línea]. [España] http://es.wikipedia.org [05-15/01/2013].</li>
+      </ul>
+      <img src="../img/varilla.png" width="1" height="300" alt="">      
+    </article> <!-- // Fin Container // -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

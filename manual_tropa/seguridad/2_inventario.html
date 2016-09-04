@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Seguridad - Inventario de seguridad">
+      <meta name="author" content="Enrique Valerio" >
+      <title>Inventario de seguridad</title>
+			<!-- CSS de Bootstrap -->                
+      <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <!-- CSS del Tema Scouts para Bootstrap -->                
+      <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+      <!-- CSS de Font Awesome -->  
+      <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+      <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../seguridad.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+
+      <h2>Inventario de seguridad</h2>
+      <p>Lugar: ___________________________________________________</p>
+      <table style="text-align: left; width: 100%;" border="1" cellpadding="2"
+      cellspacing="2">
+        <tbody>
+          <tr>
+          <td style="text-align: center; width: 50%;">
+          <b>Objetos o situaciones que puedan generar accidentes</b>
+          </td>
+          <td style="text-align: center; width: 50%;">
+          <b>Acciones para mejorar</b>
+          </td>
+          </tr>
+          <tr>
+          <td style="vertical-align: top; height: 50px;"><br>
+          </td>
+          <td style="vertical-align: top;"><br>
+          </td>
+          </tr>
+          <tr>
+          <td style="vertical-align: top; height: 50px;"><br>
+          </td>
+          <td style="vertical-align: top;"><br>
+          </td>
+          </tr>
+          <tr>
+          <td style="vertical-align: top; height: 50px;"><br>
+          </td>
+          <td style="vertical-align: top;"><br>
+          </td>
+          </tr>
+          <tr>
+          <td style="vertical-align: top; height: 50px;"><br>
+          </td>
+          <td style="vertical-align: top;"><br>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <p>Elaborado por:
+      __________________________________________</p>
+
+      <p>Fecha de la elaboración
+      ______ / _________ / ________</p>
+
+      <div class="alert alert-info">
+      <p>Con este sencillo formato que te hemos mostrado, puedes realizar un inventario en tu casa y en el local de grupo, de los objetos o situaciones que puedan generar accidentes, e incentivar acciones para mejorarlos.</p>
+      <p>Así mismo puedes hacerlo en tu comunidad, edificio o colegio.</p>
+      <p><B class="text-danger">Nota:</B> Puedes añadir cuantas hojas consideres necesario</p></div>
+      <img src="../img/varilla.png" width="1" height="50" alt="">      
+    </article> <!-- // Fin Container // -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

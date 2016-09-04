@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>  
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Un ataque cardíaco grave se produce por el bloqueo de una arteria coronaria. Este bloqueo impide a la sangre llegar al mús­culo cardíaco.">
+    <meta name="author" content="Enrique Valerio" >
+    <title>Ataque al corazón</title>
+    <!-- CSS de Bootstrap -->                
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- CSS del Tema Scouts para Bootstrap -->                
+    <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+    <!-- CSS de Font Awesome -->  
+    <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+    <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../auxilios.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+      
+      <h1>Ataque al corazón o Paro Cardíaco</h1>
+
+      <img src="archivos_auxilios/paro1.jpg" align="right" width="auto" height="400" vspace="9" style="margin-left: 15px">
+      <big><p>Un ataque cardíaco grave se produce por el bloqueo de una arteria coronaria. Este bloqueo impide a la sangre llegar al mús­culo cardíaco.</p>
+      <p class="alert alert-info">Una manera simple de determinar si el corazón funciona es <b>evaluando el pulso.</b></p>
+      </big>
+
+      <h4 class="alert alert-warning">Que hacer en caso  de un ataque al corazón</h4>
+
+      <p>Si la persona no tiene pulso es necesario reiniciar la circulación por medio de la compresión so­bre el pecho, practicando <a href="0_rcpc.html"><b>Re­animación Cardiopulmonar Cerebral (RCPC)</b></a>, la cual tiene dos propó­sitos:
+      <ul>
+        <li>Mantener los pulmones lle­nos de oxigeno cuando la respi­ración se ha detenido.</li>
+        <li>Mantener la sangre circu­lando llevando oxigeno al ce­rebro, al corazón y las demás partes del cuerpo.</li>
+      </ul>
+      </p>
+      <img src="../img/varilla.png" width="1" height="300" alt="">      
+    </article><!-- // Fin Container // -->
+    <!-- Bootstrap core JavaScript
+        ================================================== --><!-- Situado al final del documento para que las páginas se carguen más rápido -->
+
+        <script src="../../bootstrap/js/jquery.js"></script>
+        <script src="../../bootstrap/js/bootstrap.js"></script>
+        <script src="../../bootstrap/js/docs.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Seguridad - Teléfonos importantes">
+      <meta name="author" content="Enrique Valerio" >
+      <title>Teléfonos importantes</title>
+		  <!-- CSS de Bootstrap -->                
+      <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <!-- CSS del Tema Scouts para Bootstrap -->                
+      <link href="../bootstrap-theme.css" rel="stylesheet" media="screen">
+      <!-- CSS de Font Awesome -->  
+      <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+      <style type="text/css">
+        h3 {
+          color: blue;
+        }
+        p {
+          text-align: justify;
+        }
+      </style>
+      <!-- Script para aumentar disminuir tamaño del Texto -->
+      <script> var fontSize = 1.4; // funcion para aumentar la fuente 
+      function zoomIn() { fontSize += 0.1; document.body.style.fontSize = fontSize + "em"; } // funcion para disminuir la fuente 
+      function zoomOut() { fontSize -= 0.1; document.body.style.fontSize = fontSize + "em"; } </script>
+      
+      <!-- Ajustar iframe     
+      <script>
+        function redimensiona()
+         {
+            top.grand(document.body.scrollHeight);
+        }
+      </script>
+      Ajustar iframe -->
+  </head>
+  <body role="document" onload="redimensiona();">
+
+    <!-- // Container // -->
+    <article class="container-fluid">
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+      <div style="position: fixed; top: 3px; right: 3px; z-index: 99;">
+      <a href="../seguridad.html"><button class="btn btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button></a> <span onclick="zoomIn()"><button class="btn btn-success">A+</button></span> <span onclick="zoomOut()"><button class="btn btn-success">a-</button></span></div>
+      <!-- Volver y Aumentar disminuir tamaño del Texto -->
+
+      <a class="hidden-xs hidden-sm" href="#inicio"><i class="fa fa-chevron-circle-up fa-2x ir-arriba"></i></a><!-- Flecha para ir arriba -->
+      
+      <h2>Teléfonos importantes</h2>
+      <p><big><img style="width: 237px; height: 292px;" alt="Directorio"
+      title="Directorio" src="seguridad_archivos/image06.png" align="right">Es
+      necesario mantener actualizado y a la mano un directorio de teléfonos
+      importantes</big> (emergencias y ayudas) y asegurase de tenerlo siempre
+      a la mano en un lugar conocido y accesible a todos los miembros de la
+      familia.</p>
+      <p>En el <a href="3_telefonos_lista.pdf" target="_blank">modelo</a> que te facilitamos en este manual (para su impresión),
+      se agrupan en varias categoría.</p>
+      <p class="paneloro"><strong>
+      Es muy importante que:</strong></p>
+      <div class="circuloazul2 text-center">1</div><p><big> Llenes la mayor cantidad de información posible</big>, ya que
+      a la hora de usar el directorio no vas a hacer nada con los espacios en
+      blanco. Donde aparece una rayita al lado del título es para que lo
+      personalices según tu caso.</p>
+      <p class="text-danger"><strong>Ejemplo:</strong><br>
+      </p>
+      <p><img style="width: 324px; height: 111px;" alt="Ejemplo Teléfono"
+      title="Ejemplo Teléfono" src="seguridad_archivos/image000.png"></p>
+      <br>
+      <div class="circuloazul2 text-center">2</div><p><big>Esta hoja esté disponible y siempre en el mismo lugar.</big>
+      De manera que no se pierda tiempo para conseguirla, y que todos en la
+      familia sepan donde está.</p>
+      <div class="circuloazul2 text-center">3</div><p><big>Los adultos o responsables cuando no estén mamá y papá en casa
+      puedan utilizar ( saber leer ) esta hoja.</big> De otra forma la
+      información no será útil para nada… Así mismo es muy recomendable hacer
+      simulacros de como actuar en casos de emergencia.<br>
+      </p>
+      <img src="../img/varilla.png" width="1" height="50" alt="">   
+    </article> <!-- // Fin Container // -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Situado al final del documento para que las páginas se carguen más rápido -->
+      <script src="../../bootstrap/js/jquery.js"></script>
+      <script src="../../bootstrap/js/bootstrap.js"></script>
+      <script src="../../bootstrap/js/docs.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
