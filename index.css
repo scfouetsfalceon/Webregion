@@ -60,13 +60,13 @@ li {
 }
 .feedItemAuthor {
   color: #ffffff;
-  border-radius: 0px 0px 10px 10px;
-  background-color: #622599;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #4F1D7B;
   padding: 4px;
   text-align: right;
 }
 .feedItemAuthor:before {
-  content: "Por: ";
+  content: "Publicado por ";
 }
 .tusencuestas_pregunta
 {
